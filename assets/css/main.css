@@ -526,7 +526,7 @@ font-size: 15px;
 
 /* page 7 */
 
-@media screen and (max-width:420px) {
+@media screen and (max-width:42px) {
 
 /* login-page */
 
@@ -790,7 +790,7 @@ width: 26%;
 .mbl select {
   height: 40px;
   width: 14vh;
-  margin-top:-9.7%;
+  margin-top:-.7%;
   border: none;
   background-color: #e9ebf1ad;
   position: initial;

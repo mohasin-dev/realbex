@@ -1,0 +1,204 @@
+ /* Extra small devices (phones, 600px and down) */
+ @media (device-width: 320px) {
+    #hero h1 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    #hero .btn-get-started {
+        font-size: 18px;
+    }
+    #hero h2 {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 26px;
+    }
+    #profile .img-div {
+        margin-right: 10px;
+        padding: 0 5px;
+    }
+    #profile img {
+        background-color: #ede7f6;
+        border-radius: 50%;
+        width: 70px;
+        margin-right: 10px;
+    }
+    #profile .welcome-box {
+        font-size: 18px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+    }
+    .profile-btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #profile table th {
+        font-size: 16px;
+    }
+
+}
+    @media (max-width: 420px) {
+        #hero h1 {
+            font-size: 36px;
+            line-height: 36px;
+        }
+        #hero .btn-get-started {
+            font-size: 18px;
+        }
+        #hero h2 {
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 26px;
+        }
+        #profile .img-div {
+            margin-right: 40px;
+            padding: 0 15px;
+        }
+        #profile img {
+            background-color: #ede7f6;
+            border-radius: 50%;
+            width: 100px;
+            margin-right: 20px;
+        }
+        #profile .welcome-box {
+            font-size: 20px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+        }
+        .profile-btn {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        #profile table th {
+            font-size: 16px;
+        }
+    }
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media (max-width: 600px) {
+        #profile img {
+            background-color: #ede7f6;
+            border-radius: 50%;
+            width: 100px;
+            margin-right: 20px;
+        }
+        #profile .welcome-box {
+            font-size: 20px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+        }
+        #profile .img-div {
+            margin-right: 50px;
+            padding: 0 20px;
+        }
+
+        .profile-btn {
+            width: 100%;
+            margin-bottom: 12px;
+        }
+        #profile table th {
+            font-size: 18px;
+        }
+    }
+    /* Medium devices (landscape tablets, 768px and up) */
+
+    @media (max-width: 768px) {
+        #about .about-container .title {
+            padding-top: 15px;
+        }
+
+        .breadcrumbs .d-flex {
+            display: block !important;
+        }
+        .breadcrumbs ol {
+            display: block;
+        }
+        .breadcrumbs ol li {
+            display: inline-block;
+        }
+        #hero h2 {
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 30px;
+        }
+        #hero .btn-get-started {
+            font-size: 22px;
+        }
+        #hero h1 {
+            font-size: 42px;
+            line-height: 36px;
+        }
+        #hero .get-started {
+            position: absolute;
+            bottom: 3%;
+        }
+        #header #logo img {
+            display: none;
+        }
+        .mobile-nav-toggle {
+            display: none;
+        }
+    }
+
+    @media (min-width: 768px) {
+        #profile img {
+            background-color: #ede7f6;
+            border-radius: 50%;
+            width: 100px;
+        }
+        #profile .welcome-box {
+            font-size: 20px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+        }
+        #profile .img-div {
+            padding: 0 40px;
+        }
+    }
+
+    @media (max-width: 991px) {
+        .mobile-nav-toggle {
+            display: block;
+        }
+        .navbar ul {
+            display: none;
+        }
+    }
+
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media (min-width: 992px) {
+       
+    }
+
+    @media (max-width: 992px) {
+        .breadcrumbs h2 {
+            margin: 0 0 10px 0;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        #call-to-action {
+            background-attachment: scroll;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        #hero {
+            background-attachment: fixed;
+        }
+    }
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+
+    @media (min-width: 1200px) {}
+
+    @media (max-width: 1366px) {
+        .navbar .dropdown .dropdown ul {
+            left: -90%;
+        }
+        .navbar .dropdown .dropdown:hover>ul {
+            left: -100%;
+        }
+    }
