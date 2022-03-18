@@ -1505,6 +1505,14 @@ left: -100%;
   
 }
 
+.custome-btn{
+  margin-left: 31%;
+  margin-top: 10%;
+  background-color: #2060b7;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
 
 /* #getId{
   background-color: #000;
