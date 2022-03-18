@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,500&family=Roboto:wght@300;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  
+}
+
+
+/* login page */
+
+.container-1{
+    width:auto;
+    height: auto;
+    position: relative;
+
+    
+}
+
+.bg-image{
+  background-image:url('./assets/image/bruj.png');
+  background-repeat: no-repeat; 
+}
+
+.logo-name{
+  position:absolute;
+  color: white;
+  font-size:3.9em;
+  margin: 100px;
+  margin-top: 380px;
+  font-weight: 900;
+  
+}
+
+.login-btn{
+  position:absolute;
+  color: white;
+  font-size:.8em;
+  margin: 15vh;
+  margin-top: 700px;
+  font-weight: 500;
+  background-color: rgb(23, 102, 230);
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+
+.login-text{
+  position:absolute;
+  color: white;
+  font-size:.8em;
+  margin: 12vh;
+  margin-top: 745px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+}
+
+.login-text a{
+  color: white;
+  padding-left: 3px;
+  
+}
+
+
+
+/* login-page */
+
+
+.lg-title p{
+  position:absolute;
+  color:rgb(30, 2, 43);
+  font-size:1.6em;
+  margin-left:9vh;
+  margin-top:15vh;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  
+}
+
+
+.form-input input{
+  position: absolute;
+  border: 3px solid rgb(30, 103, 236);
+  border-radius: 15px;
+  margin-left: 6vh;
+  margin-top: 23vh;
+  font-weight: 500;
+  text-decoration: none;
+  height: 8vh;
+  width: 76vw;
+  padding-left: 10px;
+
+}
+
+.form-input-2 input{
+  position: absolute;
+  border: 3px solid rgb(30, 103, 236);
+  border-radius: 15px;
+  margin-left: 6vh;
+  margin-top: 33vh;
+  font-weight: 500;
+  text-decoration: none;
+  height: 8vh;
+  width: 76vw;
+  padding-left: 10px;
+  
+  }
+
+ 
+
+.skyline{
+  
+position: absolute;
+bottom: 0;
+width: 428px;
+height: 345px;
+object-fit: cover;
+object-position: 68% 10%;
+} 
+
+.forget-a{
+  position: absolute;
+  bottom: 35vh;
+  z-index: 1;
+  margin-left: 17vh;
+  font-size: .9rem;
+  color: black;
+}
+
+.lg-btn{
+  position: absolute;
+  bottom: 25vh;
+  z-index: 1;
+  margin-left: 17vh;
+  font-size: .9rem;
+  padding: 10px 40px 10px 40px;
+  background-color: rgb(40, 102, 218);
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.finger{
+  position: absolute;
+  height: 30px;
+  width: 40px;
+}
+
+.link{
+  color:black;
+  position: absolute;
+  
+}
+
+.form-input-3{
+  border: 2px solid rgba(152, 153, 156, 0.883);
+  border-radius: 10px;
+  position: absolute;
+  border-radius: 15px;
+  margin-left: 6vh;
+  margin-top: 45vh;
+  font-weight: 500;
+  text-decoration: none;
+  height: 8vh;
+  width: 76vw;
+}
+
+
+
+
+
+
+/* congratulations */
+
+.con-main-container{
+  text-align:center;
+  overflow: hidden;
+ 
+}
+
+.congrates-title{
+  color: #13136e;
+  font-size: 28px;
+  font-weight: 900;
+
+}
+
+.congrates-text{
+  margin-top: 130px !important;
+}
+
+
+.congrates-img{
+  height:20vh;
+  padding-bottom: 25px;
+}
+
+.congrates-msg{
+  font-size:19px;
+  color: #13136e;
+  font-weight: 500;
+  
+}
+
+.congrates-btn{
+  padding: 11px 15px 14px 15px;
+background-color: rgb(9, 106, 210);
+border-radius: 10px;
+color: white;
+text-decoration: none;
+text-align: center;
+font-size: 15px;
+font-weight: 500;
+
+}
+
+
+.line{
+  padding:1.6px;
+  margin-top:125px;
+  margin-left:10px;
+  width: 400px;
+
+}
+
+.footer-img img{
+  height: 60px;
+  width: 80px;
+  padding-left:30px;
+  
+}
+
+
+/* page 3 */
+
+/* page-4 */
+
+
+
+.main-container{
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* page-4 */
+.pass-p{
+  margin-top: 100%;
+  font-size: 16px;
+}
+
+.auth-p{
+  color: rgb(22, 107, 22);
+  font-size: 21px;
+  margin-top: 12%;
+  font-weight: 500;
+
+}
+
+.auth-img{
+  height: 17%;
+  width: 56vw;
+  margin-top: 3%;
+}
+
+.log-p{
+  margin-top: 10%;
+
+}
+
+.real-p{
+  font-size: 19px;
+  color: rgb(21, 139, 21);;
+}
+
+.cancle-btn-4{
+  height: 61px;
+  background-color: #9ea0a6;
+  border: none;
+  border-radius: 10px;
+  width: 70vw;
+  color: white;
+  margin-top: 21%;
+  font-weight: 500;
+  font-size: 21px;
+  
+
+}
+
+.cancel-a{
+  text-decoration: none;
+  color: rgb(21, 139, 21);
+  font-size: 19px;
+  font-weight: 400;
+  margin-top: 20%;
+}
+
+/* page-4 */
+
+
+/* page 8 */
+
+.nav-img{
+  position: absolute;
+  bottom: -25%;
+  width: 600px;
+  
+  object-fit: cover;
+  object-position: 68% 10%;
+}
+
+/* page 8 */
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+/* login-page */
+
+
+.lg-title p{
+  position:absolute;
+  color:rgb(30, 2, 43);
+  font-size:1.6em;
+  margin-left: 6vh;
+  margin-top: 13vh;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  
+}
+
+
+.form-input input{
+  position: absolute;
+  border: 3px solid rgb(30, 103, 236);
+  border-radius: 15px;
+  margin-left: 6vh;
+  margin-top: 23vh;
+  font-weight: 500;
+  text-decoration: none;
+  height: 8vh;
+  width: 76vw;
+
+}
+
+.form-input-2 input{
+  position: absolute;
+  border: 3px solid rgb(30, 103, 236);
+  border-radius: 15px;
+  margin-left: 6vh;
+  margin-top: 33vh;
+  font-weight: 500;
+  text-decoration: none;
+  height: 8vh;
+  width: 76vw;
+  
+  }
+
+ 
+
+.skyline{
+  
+  position: absolute;
+  /* bottom: 0; */
+  height: 22%;
+  width: 100%;
+  object-fit: cover;
+  /* object-position:10%; */
+} 
+
+.forget-a{
+  position: absolute;
+  bottom: 35vh;
+  z-index: 1;
+  margin-left: 17vh;
+  font-size: .9rem;
+  color: black;
+}
+
+.lg-btn{
+  position: absolute;
+  bottom: 25vh;
+  z-index: 1;
+  margin-left: 17vh;
+  font-size: .9rem;
+  padding: 10px 40px 10px 40px;
+  background-color: rgb(40, 102, 218);
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.finger{
+  position: relative;
+  height: 30px;
+  width: 40px;
+  
+}
+
+
+
+.link{
+  color:rgba(0, 0, 0, 0.685);
+  position: absolute;
+  font-size: 18px;
+  margin-top: 5%;
+  margin-left: 10%;
+  font-weight: 300;
+
+  
+}
+
+
+.form-input-3{
+  
+  /* border-radius: 10px;
+  position: absolute;
+  border-radius: 15px;
+  margin-left: 14%;
+  margin-top: 44vh;
+  font-weight: 500;
+  text-decoration: none;
+  height: 8vh;
+  width: 76vw; */
+
+
+
+  position: absolute;
+  border: 3px solid rgba(152, 153, 156, 0.883);
+  border-radius: 14px;
+  margin-top: 45vh;
+  font-weight: 500;
+  text-decoration: none;
+  height: 8vh;
+  width: 76vw;
+}
+
+
+  /* loginpage */
+  
+  .main-container{
+    height:100vh;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+  .pass-p{
+    margin-top: 22%;
+    font-size: 16px;
+  }
+
+  .auth-p{
+    color: rgb(22, 107, 22);
+    font-size: 21px;
+    margin-top: 12%;
+    font-weight: 500;
+
+  }
+
+  .auth-img{
+    height: 166px;
+    width: 447px;
+    margin-top: 2%;
+  }
+
+  .log-p{
+    margin-top: 2%;
+    font-size: 13px;;
+
+  }
+
+  .real-p{
+    font-size: 17px;
+    color: rgb(21, 139, 21);;
+  }
+
+  .cancle-btn-4{
+    height: 61px;
+    background-color: #9ea0a6;
+    border: none;
+    border-radius: 10px;
+    width: 70vw;
+    color: white;
+    margin-top: 14%;
+    font-weight: 500;
+    font-size: 21px;
+    
+
+  }
+
+  .cancel-a{
+    text-decoration: none;
+    color: rgb(21, 139, 21);
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: 3%;
+  }
+
+ /* page-4 */
+
+ /* page 8 */
+/* .tab-bar{
+display: flex;
+flex-direction: row;
+position: absolute;
+padding: 15%;
+top: 10%;
+align-items: center;
+text-align: center;
+}
+
+
+.round{
+   height: 22px;
+   padding:0px 10px 0px 10px;
+   border:#9ea0a6 1px solid ;
+   border-radius: 10px;
+   margin-left: 18px;
+}
+.arrow{
+  height: 21px;
+  padding: 1px 0px 0px 10px;
+  border-radius: 10px;
+  margin-left: 15px;
+  font-size: 35px;
+  color: rgba(32, 77, 224, 0.87);
+} */
+
+.nav-img{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.forms h3{
+  margin-top: 55%;
+  color: #13136e;
+  margin-left: -28%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+
+.form-inp input{
+  height: 34px;
+  width: 45vh;
+  margin-top: 9px;
+  border: none;
+  background-color: #e9ebf1;
+  padding-left: 17px;
+}
+
+
+.pro-btn{
+  background-color: rgba(11, 96, 207, 0.925);
+  border: none;
+  height: 50px;
+  width: 50%;
+  margin-top: 10%;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+}
+
+
+
+}
+
+ /* page 8 */
