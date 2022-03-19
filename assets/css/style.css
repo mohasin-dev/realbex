@@ -61,6 +61,14 @@ h6 {
   transition: all 0.4s;
 }
 
+.base-Color{
+  color: #092358 !important;
+}
+
+.green{
+  color: #25914f !important;
+}
+
 .back-to-top i {
   font-size: 28px;
   color: #fff;
@@ -1188,6 +1196,9 @@ section {
   transition: 0.4s;
 }
 
+.pro-table td{
+  padding-bottom: 15px !important;
+}
 
 
 
