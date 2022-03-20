@@ -1200,7 +1200,26 @@ section {
   padding-bottom: 15px !important;
 }
 
+.pro-table input, .pro-table select, .pro-table textarea {
+  width: 100%;
+  border: 1px solid #F4F4F4;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+  color: #7C8694;
+  background-color: #F4F4F4;
+}
 
+.profile-btn-disabled {
+  background: #ccc;
+  border: 0;
+  width: 100%;
+  min-width: 160px;
+  border-radius: 6px;
+  padding: 10px;
+  color: #fff;
+  transition: 0.4s;
+}
 
 
 @media (max-width: 420px) {
