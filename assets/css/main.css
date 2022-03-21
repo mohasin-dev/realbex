@@ -116,76 +116,6 @@
 }
 
 
-
-
-
-
-/* congratulations */
-
-.con-main-container{
-  text-align:center;
-  overflow: hidden;
- 
-}
-
-.congrates-title{
-  color: #13136e;
-  font-size: 28px;
-  font-weight: 900;
-
-}
-
-.congrates-text{
-  margin-top: 130px !important;
-}
-
-
-.congrates-img{
-  height:20vh;
-  padding-bottom: 25px;
-}
-
-.congrates-msg{
-  font-size:19px;
-  color: #13136e;
-  font-weight: 500;
-  
-}
-
-.congrates-btn{
-  padding: 11px 15px 14px 15px;
-background-color: rgb(9, 106, 210);
-border-radius: 10px;
-color: white;
-text-decoration: none;
-text-align: center;
-font-size: 15px;
-font-weight: 500;
-
-}
-
-
-.line{
-  padding:1.6px;
-  margin-top:125px;
-  margin-left:10px;
-  width: 400px;
-
-}
-
-.footer-img img{
-  height: 60px;
-  width: 80px;
-  padding-left:30px;
-  
-}
-
-
-/* page 3 */
-
-
-
-
 .main-container{
   width: 100%;
   text-align: center;
@@ -417,114 +347,7 @@ font-size: 18px;
 /* page 6 */
 
 
-/* page 7*/
 
-.main-container{
-  height:100vh;
-  width: 100%;
-  text-align: center;
-  align-items: center;
-  overflow: hidden;
-  display:flex;
-  flex-direction:column;
-}
-
-.tab-bar{
-display: flex;
-flex-direction: row;
-position: absolute;
-padding: 5%;
-top: 2%;
-align-items: center;
-text-align: center;
-
-}
-
-
-
-.round{
- height: 26px;
- width: 26px;
- margin-right: 23px;
- border:#9ea0a6 1px solid ;
- border-radius: 50%;
- border:none;
- background-color: #d0d3dd;
-
-}
-.arrow{
-height: 21px;
-padding: 1px 0px 0px 10px;
-border-radius: 10px;
-left:12px;
-font-size: 40px;
-color: #002dc2de;
-position: absolute;
-
-}
-
-
-
-.nav-img{
-position: absolute;
-bottom: 0;
-/* height: 500px; */
-width: 100%;
-z-index: -1;
-}
-
-.forms h3{
-margin-top: 45%;
-color: #13136e;
-margin-left: -15%;
-display: flex;
-flex-direction: column;
-
-}
-
-.forms2{
-  width:320px;
-}
-
-.main-form{
- margin-right: 20%;
-}
-
-
-
-
-.form-inp input{
-display: block;
-height: 40px;
-width: 50vh;
-margin-top: 2%;
-border: none;
-background-color: #e9ebf1ad;
-padding-left: 17px;
-}
-
-.mbl input {
-height: 40px;
-width: 34vh;
-margin-top: 9px;
-margin-left: 32%;
-border: none;
-background-color: #e9ebf1ad;
-/* padding-left: 128px; */
-}
-
-.pro-btn {
-background-color: rgba(11, 96, 207, 0.925);
-border: none;
-height: 55px;
-width: 50%;
-margin-top: 10%;
-border-radius: 8px;
-color: white;
-font-size: 15px;
-}
-
-/* page 7 */
 
 @media screen and (max-width:420px) {
 
@@ -820,12 +643,6 @@ width: 26%;
 
   
 }
-
-
-
-
-
-
 
  /* page 6 */
 

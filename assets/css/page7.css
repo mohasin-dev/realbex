@@ -1,0 +1,668 @@
+/***** base  *****/
+
+.arrow {
+    height: 21px;
+    border-radius: 10px;
+    font-size: 40px;
+    color: #002dc2de;
+}
+
+.verifForm {
+    padding: 15%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.entVer {
+    color: rgb(13, 13, 128);
+    font-size: 23px;
+    padding-top: 50px;
+}
+
+.verNotif {
+    font-size: 13px;
+}
+
+.verBtn {
+    background-color: #106ce6;
+    text-align: center;
+    color: white;
+    height: 60px;
+    width: 200px;
+}
+
+.nav-img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+/***** End base  *****/
+
+/* new  */
+
+@media only screen and (min-device-width: 240px) and (max-device-width: 320px) {
+    .arrow1 {
+        border-radius: 10px;
+        font-size: 40px;
+        color: #002dc2de;
+        position: absolute;
+        left: 10%;
+        top: 100px;
+    }
+    .arrow2 {
+        border-radius: 10px;
+        font-size: 40px;
+        color: #002dc2de;
+        position: absolute;
+        left: 82%;
+        top: 10%;
+    }
+
+    .round span {
+        height: 22px;
+        width: 22px;
+        border: #9ea0a6 1px solid;
+        border-radius: 50%;
+        border: none;
+        background-color: #d0d3dd;
+        display: inline-flex;
+        margin-left: 3px;
+    }
+
+    .round {
+        margin-top: 112px;
+        margin-left: 20%;
+    }
+
+    .verifForm {
+        padding: 0% 6% 0% 6%;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .entVer {
+        color: rgb(13, 13, 128);
+        font-size: 17px;
+        padding-top: 50px;
+    }
+
+    .verNotif {
+        color: #9ea0a6;
+        font-size: 11px;
+    }
+
+    .verNums {
+        display: inline-flex;
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
+
+    .vNum {
+        height: 40px;
+        width: 40px;
+        border: none;
+        background-color: #f0f2f8fb;
+    }
+
+    ::placeholder {
+        color: #404142;
+        border-radius: 50%;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .verBtn {
+        width: 180px;
+        border: none;
+        border-radius: 10px;
+        height: 40px;
+    }
+
+    .verBtn a {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+
+    .otpRes {
+        color: #404142;
+        font-weight: 700;
+    }
+
+    .otpNotif {
+        font-size: 12px;
+        padding: 5% 5% 0% 11%;
+    }
+
+    .nav-img {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        z-index: -1;
+    }
+    /* Page7 */
+
+    /* /////////////////////////////////////////////////////////////////////////////////////////// */
+
+    /* congratulations */
+
+    .congrates-title {
+        color: #13136e;
+        font-size: 23px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .congrates-text {
+        margin-top: 140px !important;
+    }
+
+    .congrates-img {
+        height: 18vh;
+        padding-bottom: 25px;
+    }
+
+    .congrates-msg {
+        font-size: 13px;
+        color: #0d0d53;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .congrates-btn {
+        width: 180px;
+        border: none;
+        border-radius: 10px;
+        height: 40px;
+        background-color: #106ce6;
+        margin-left: 15%;
+    }
+
+    .cng-link {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    /* congratulations page  */
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .page7 {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .arrow1 {
+        height: 21px;
+        border-radius: 10px;
+        font-size: 40px;
+        color: #002dc2de;
+        position: absolute;
+        left: 11%;
+        top: 100px;
+    }
+    .arrow2 {
+        height: 21px;
+        border-radius: 10px;
+        font-size: 40px;
+        color: #002dc2de;
+        position: absolute;
+        left: 82%;
+        top: 10%;
+    }
+
+    .round span {
+        height: 26px;
+        width: 26px;
+        border: #9ea0a6 1px solid;
+        border-radius: 50%;
+        border: none;
+        background-color: #d0d3dd;
+        display: inline-flex;
+        margin-left: 5px;
+    }
+
+    .round {
+        margin-top: 112px;
+        margin-left: 25%;
+    }
+
+    .verifForm {
+        padding: 0% 12% 0% 13%;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .entVer {
+        color: rgb(13, 13, 128);
+        font-size: 20px;
+        padding-top: 50px;
+    }
+
+    .verNotif {
+        color: #9ea0a6;
+        font-size: 13px;
+    }
+
+    .verNums {
+        display: inline-flex;
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
+
+    .vNum {
+        height: 50px;
+        width: 50px;
+        border: none;
+        background-color: #f0f2f8fb;
+    }
+
+    ::placeholder {
+        color: #404142;
+        border-radius: 50%;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .verBtn {
+        width: 255px;
+        border: none;
+        border-radius: 10px;
+        height: 44px;
+        margin-right: 5%;
+    }
+
+    .verBtn a {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+    }
+
+    .otpRes {
+        color: #404142;
+        font-weight: 700;
+    }
+
+    .otpNotif {
+        font-size: 12px;
+        padding: 5% 5% 0% 15%;
+    }
+
+    .nav-img {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        z-index: -1;
+    }
+
+    /* congratulations */
+
+    .congrates-title {
+        color: #13136e;
+        font-size: 30px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .congrates-text {
+        margin-top: 140px !important;
+    }
+
+    .congrates-img {
+        height: 22vh;
+        padding-bottom: 25px;
+    }
+
+    .congrates-msg {
+        font-size: 17px;
+        color: #0d0d53;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .congrates-btn {
+        width: 200px;
+        border: none;
+        border-radius: 10px;
+        height: 45px;
+        background-color: #106ce6;
+        margin: auto;
+        margin-top: 20%;
+    }
+
+    .cng-link {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    /* congratulations page  */
+}
+
+/*  (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 480px) and (max-device-width: 575px) {
+    .page7 {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .progressBar {
+    }
+
+    .arrow1 {
+        border-radius: 10px;
+        font-size: 51px;
+        color: #002dc2de;
+        position: absolute;
+        left: 11%;
+        top: 97px;
+    }
+    .arrow2 {
+        height: 21px;
+        border-radius: 10px;
+        font-size: 40px;
+        color: #002dc2de;
+        position: absolute;
+        left: 82%;
+        top: 10%;
+    }
+
+    .round span {
+        height: 31px;
+        width: 31px;
+        border: #9ea0a6 1px solid;
+        border-radius: 50%;
+        border: none;
+        background-color: #d0d3dd;
+        display: inline-flex;
+        margin-left: 8px;
+    }
+
+    .round {
+        margin-top: 112px;
+        margin-left: 25%;
+    }
+
+    .verifForm {
+        padding: 0% 12% 0% 13%;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .entVer {
+        color: rgb(13, 13, 128);
+        font-size: 26px;
+        padding-top: 50px;
+    }
+
+    .verNotif {
+        color: #9ea0a6;
+        font-size: 13px;
+    }
+
+    .verNums {
+        display: inline-flex;
+        margin-top: 10%;
+        margin-bottom: 20%;
+        padding: 0% 0% 0% 7%;
+    }
+
+    .vNum {
+        height: 70px;
+        width: 70px;
+        border: none;
+        background-color: #f0f2f8fb;
+    }
+
+    ::placeholder {
+        color: #404142;
+        border-radius: 50%;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .verBtn {
+        width: 255px;
+        border: none;
+        border-radius: 10px;
+        height: 44px;
+        margin-right: 5%;
+    }
+
+    .verBtn a {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+    }
+
+    .otpRes {
+        color: #404142;
+        font-weight: 700;
+    }
+
+    .otpNotif {
+        font-size: 12px;
+        padding: 6% 7% 0% 25%;
+    }
+
+    .nav-img {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+    /* congratulations page  */
+
+    /* congratulations */
+
+    .congrates-title {
+        color: #13136e;
+        font-size: 33px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .congrates-text {
+        margin-top: 140px !important;
+    }
+
+    .congrates-img {
+        height: 22vh;
+        padding-bottom: 25px;
+    }
+
+    .congrates-msg {
+        font-size: 17px;
+        color: #0d0d53;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .congrates-btn {
+        width: 200px;
+        border: none;
+        border-radius: 10px;
+        height: 45px;
+        background-color: #106ce6;
+        margin: auto;
+        margin-top: 20%;
+    }
+
+    .cng-link {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 575px) and (max-device-width: 980px) {
+    /* Styles */
+    .page7 {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .progressBar {
+    }
+
+    .arrow1 {
+        border-radius: 10px;
+        font-size: 51px;
+        color: #002dc2de;
+        position: absolute;
+        left: 18%;
+        top: 97px;
+    }
+    .arrow2 {
+        height: 21px;
+        border-radius: 10px;
+        font-size: 40px;
+        color: #002dc2de;
+        position: absolute;
+        left: 82%;
+        top: 10%;
+    }
+
+    .round span {
+        height: 31px;
+        width: 31px;
+        border: #9ea0a6 1px solid;
+        border-radius: 50%;
+        border: none;
+        background-color: #d0d3dd;
+        display: inline-flex;
+        margin-left: 15px;
+    }
+
+    .round {
+        margin-top: 112px;
+        margin-left: 15%;
+    }
+
+    .verifForm {
+        padding: 0% 12% 0% 25%;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        z-index: 999;
+    }
+
+    .entVer {
+        color: rgb(13, 13, 128);
+        font-size: 26px;
+        padding-top: 50px;
+    }
+
+    .verNotif {
+        color: #9ea0a6;
+        font-size: 13px;
+    }
+
+    .verNums {
+        display: inline-flex;
+        margin-top: 10%;
+        margin-bottom: 20%;
+        padding: 0% 0% 0% 5%;
+    }
+
+    .vNum {
+        height: 70px;
+        width: 70px;
+        border: none;
+        background-color: #f0f2f8fb;
+    }
+
+    ::placeholder {
+        color: #404142;
+        border-radius: 50%;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .verBtn {
+        width: 255px;
+        border: none;
+        border-radius: 10px;
+        height: 44px;
+        margin-right: 20%;
+    }
+
+    .verBtn a {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+    }
+
+    .otpRes {
+        color: #404142;
+        font-weight: 700;
+    }
+
+    .otpNotif {
+        font-size: 12px;
+        padding: 6% 7% 0% 21%;
+    }
+
+    .nav-img {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        z-index: -1;
+    }
+
+    /* congratulations */
+
+    .congrates-title {
+        color: #13136e;
+        font-size: 30px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .congrates-text {
+        margin-top: 140px !important;
+    }
+
+    .congrates-img {
+        height: 25vh;
+        padding-bottom: 25px;
+    }
+
+    .congrates-msg {
+        font-size: 17px;
+        color: #0d0d53;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .congrates-btn {
+        width: 200px;
+        border: none;
+        border-radius: 10px;
+        height: 45px;
+        background-color: #106ce6;
+        margin: auto;
+        margin-top: 15%;
+    }
+
+    .cng-link {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+    }
+}
