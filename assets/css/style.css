@@ -1813,3 +1813,73 @@ left: -100%;
 # Css End here
 --------------------------------------------------------------*/
 
+
+/*--------------------------------------------------------------
+# Css for the My Profile
+# Css Start here
+--------------------------------------------------------------*/
+
+@media only screen and (max-width: 428px){
+  #body-temp{
+    padding-left: 9%;
+    padding-right: 9%;
+  }
+
+  #head1{
+    position: relative;
+    
+  }
+
+  #head1 h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #092358;
+    margin-left: 54px;
+    padding-top: 22%;
+  } 
+  
+  #head1 .arow-size{
+    width: 15px;
+    color: #205fb7;
+    position: absolute;
+    top: 73%;
+    left: 34px;
+  }
+
+  .arow{
+    height: 0px;
+  }
+  .arow-size{
+    width: 10px;
+  }
+
+  input[type="text"].incolor::-webkit-input-placeholder {
+    font-size: 16px;
+    font-weight: 500;
+    color: #7c8694;
+  }
+
+  .pro-contain{
+    position: relative;
+
+  }
+
+  .pro-imag{
+    width: 22%;
+    padding-top: 14px;
+    margin-left: 10px;
+  }
+
+  .pro-content{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+  }
+  .pro-content h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #092358;
+  }
+
+
+}
