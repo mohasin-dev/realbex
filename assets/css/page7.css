@@ -41,7 +41,7 @@
 }
 
 /* page 10 start  */
-.confForm{
+.confForm {
     padding: 0% 30% 0% 20%;
     align-items: center;
     justify-content: center;
@@ -91,6 +91,50 @@
 }
 
 /* page 10 end  */
+
+/* page 12 start  */
+.welForm {
+    padding: 0% 20% 0% 20%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.welEmail {
+    color: rgb(13, 13, 128);
+    font-size: 25px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.welText {
+    color: #000103;
+    font-size: 14px;
+    text-align: center;
+}
+
+.welLink {
+    color: #106ce6;
+}
+
+.welBtn {
+    background-color: #1b5db3;
+    text-align: center;
+    color: white;
+    height: 55px;
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.welBtn a {
+    color: white;
+    font-weight: 500;
+}
+
+/* page 12 end  */
 
 /***** End base  *****/
 
@@ -245,7 +289,7 @@
     /* congratulations page  */
 
     /* page 10 start  */
-    .confForm{
+    .confForm {
         padding: 0% 5% 0% 5%;
         align-items: center;
         justify-content: center;
@@ -295,6 +339,54 @@
     }
 
     /* page 10 end  */
+
+    /* page 12 start  */
+    .welForm {
+        padding: 0% 8% 0% 8%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .welEmail {
+        color: rgb(13, 13, 128);
+        font-size: 26px;
+        margin-top: 10%;
+        text-align: left;
+        font-weight: 600;
+    }
+
+    .welText {
+        color: #000103;
+        font-size: 14px;
+        text-align: left;
+        margin-top: 10%;
+        padding-right: 10%;
+    }
+
+    .welLink {
+        color: #5d6269;
+        text-decoration: underline;
+        margin-top: 5%;
+        font-size: 14px;
+    }
+
+    .welBtn {
+        background-color: #1b5db3;
+        text-align: center;
+        color: white;
+        height: 45px;
+        width: 180px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 18%;
+    }
+
+    .welBtn a {
+        color: white;
+        font-weight: 500;
+        font-size: 15px;
+    }
 }
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -453,7 +545,7 @@
     /* congratulations page  */
 
     /* page 10 start  */
-    .confForm{
+    .confForm {
         padding: 0% 8% 0% 8%;
         align-items: center;
         justify-content: center;
@@ -503,6 +595,52 @@
     }
 
     /* page 10 end  */
+    /* page 12 start  */
+    .welForm {
+        padding: 0% 8% 0% 8%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .welEmail {
+        color: rgb(13, 13, 128);
+        font-size: 30px;
+        margin-top: 10%;
+        text-align: left;
+        font-weight: 600;
+    }
+
+    .welText {
+        color: #000103;
+        font-size: 16px;
+        text-align: left;
+        margin-top: 10%;
+        padding-right: 10%;
+    }
+
+    .welLink {
+        color: #8f949b;
+        text-decoration: underline;
+        margin-top: 5%;
+    }
+
+    .welBtn {
+        background-color: #1b5db3;
+        text-align: center;
+        color: white;
+        height: 45px;
+        width: 180px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 18%;
+    }
+
+    .welBtn a {
+        color: white;
+        font-weight: 500;
+        font-size: 18px;
+    }
 }
 
 /*  (portrait and landscape) ----------- */
@@ -662,7 +800,7 @@
     }
 
     /* page 10 start  */
-    .confForm{
+    .confForm {
         padding: 0% 6% 0% 6%;
         align-items: center;
         justify-content: center;
@@ -711,6 +849,55 @@
     }
 
     /* page 10 end  */
+
+    /* page 12 start  */
+    .welForm {
+        padding: 0% 12% 0% 12%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .welEmail {
+        color: rgb(13, 13, 128);
+        font-size: 37px;
+        margin-top: 10%;
+        text-align: left;
+        font-weight: 600;
+    }
+
+    .welText {
+        color: #000103;
+        font-size: 18px;
+        text-align: left;
+        margin-top: 10%;
+        padding-right: 10%;
+    }
+
+    .welLink {
+        color: #8f949b;
+        text-decoration: underline;
+        margin-top: 5%;
+    }
+
+    .welBtn {
+        background-color: #1b5db3;
+        text-align: center;
+        color: white;
+        height: 55px;
+        width: 250px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 15%;
+    }
+
+    .welBtn a {
+        color: white;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    /* page 12 end  */
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -871,7 +1058,7 @@
     }
 
     /* page 10 start  */
-    .confForm{
+    .confForm {
         padding: 0% 8% 0% 8%;
         align-items: center;
         justify-content: center;
@@ -921,4 +1108,51 @@
     }
 
     /* page 10 end  */
+
+    /* page 12 start  */
+    .welForm {
+        padding: 0% 20% 0% 20%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .welEmail {
+        color: rgb(13, 13, 128);
+        font-size: 30px;
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    .welText {
+        color: #000103;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .welLink {
+        color: #8f949b;
+        text-decoration: underline;
+        margin-top: 3%;
+    }
+
+    .welBtn {
+        background-color: #1b5db3;
+        text-align: center;
+        color: white;
+        height: 55px;
+        width: 250px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 15%;
+    }
+
+    .welBtn a {
+        color: white;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    /* page 12 end  */
 }
