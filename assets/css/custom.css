@@ -1385,8 +1385,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Css for the complete profile setup page
-# Css starts here
+# Css for the mobile responsive
 --------------------------------------------------------------*/
 
 @media (max-width: 390px) {
@@ -1587,4 +1586,76 @@ section {
 }
 
  */
+}
+
+@media (max-width: 428px) {
+  #page20 h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #092358;
+    margin-left: 14px;
+    padding-top: 60px;
+  }
+
+  #page20 .arow-size {
+    width: 15px;
+    color: #205fb7;
+    position: fixed;
+    top: 60px;
+    left: 24px;
+  }
+}
+
+@media (max-width: 375px) {
+  #page20 h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #092358;
+    margin-left: 14px;
+    padding-top: 60px;
+  }
+
+  #page20 .arow-size {
+    width: 15px;
+    color: #205fb7;
+    position: fixed;
+    top: 60px;
+    left: 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  #page20 h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #092358;
+    margin-left: 14px;
+    padding-top: 60px;
+  }
+
+  #page20 .arow-size {
+    width: 15px;
+    color: #205fb7;
+    position: fixed;
+    top: 60px;
+    left: 24px;
+  }
+}
+
+@media (max-width: 280px) {
+  #page20 h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #092358;
+    margin-left: 14px;
+    padding-top: 60px;
+  }
+
+  #page20 .arow-size {
+    width: 15px;
+    color: #205fb7;
+    position: fixed;
+    top: 60px;
+    left: 24px;
+  }
 }
