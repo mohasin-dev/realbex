@@ -73,16 +73,6 @@
         </div>
     </header> -->
 
-
-    <style>
-        #profile {
-            width: 100%;
-            /* height: 100vh; */
-            position: relative;
-            padding: 40px 20px;
-        }
-    </style>
-
     <section id="profile">
         <div class="container-fluid profile">
             <div class="row offset-md-3" style="margin-bottom: 40px;">
@@ -108,63 +98,94 @@
                                     <td colspan="2" class="text-right">AED VALUE</td>
                                 </tr>
                                 <tr>
-                                    <td><img style="min-width: 4%; margin-right: 5px;" class="img-fluid" src="assets/img/check.png"><a style="text-decoration: underline; " href="#">Meydan Townhouse 76783</a></td>
-                                    <td class="float-right">1,950,000</td>
+                                    <td><img style="min-width: 4%; margin-right: 5px;" class="img-fluid" src="assets/img/check.png"><a style="text-decoration: underline; font-size: 17px; " href="#">Meydan Townhouse 76783</a></td>
+                                    <td style="font-size: 17px;" class="float-right">1,950,000</td>
                                 </tr>
                                 <tr>
-                                    <td class="table-total ">Total Holdings (AED)
+                                    <td colspan="2" style="padding-top: 25px; color: #0450a8; font-size: 17px;" class=""><img style="min-width: 4%; margin-right: 5px; width: 25px;" class="img-fluid" src="assets/img/pdf.png"><i>Valuation reports</i>
                                     </td>
-                                    <td class="table-total float-right">
-                                        1,950,000</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div>
-            <div class="row " style="margin-bottom: 30px; ">
-                <div class="col-12 col-md-6 col-lg-6 offset-md-3 offset-lg-3 ">
-                    <div class="card mortages-card">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th style="color: #092358; " colspan="2 ">Mortages and Property Services</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="text-right" colspan="2 ">AED VALUE</td>
-                                </tr>
-                                <tr>
-                                    <td>Mortgages (Outstanding)</td>
-                                    <td class="float-right">250,000</td>
-                                </tr>
-                                <tr>
-                                    <td>Personal loans (Outstanding)</td>
-                                    <td class="float-right">00</td>
-                                </tr>
-                                <tr>
-                                    <td>Emergency Loan (Outstanding) </td>
-                                    <td class="float-right">00</td>
-                                </tr>
-                                <tr>
-                                    <td class="table-total-10 ">Total Credit (AED)
-                                    </td>
-                                    <td class="table-total-10 float-right ">
-                                        250,000</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
+
+            <style>
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #0450a8;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #749cd2;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #4f81bd;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.page25 p {
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+            </style>
             <div class="row ">
                 <div class="col-sm-12 col-md-6 col-lg-6 offset-md-3 offset-lg-3 ">
+                    <div style="padding: 2px; background-color: #7c8694; border-radius: 10px; margin: 50px 0 30px;"></div>
                     <div style="padding: 0 10px; ">
-                        <span style="color: #092358; font-weight: bold; ">TOP SERVICES</span>
-                        <div style="margin-top: 10px; ">
-                            <button class="profile-btn" type="submit ">Add Property</button>
-                            <button class="profile-btn" type="submit ">Property Services</button>
+                        <span style="color: #013060; font-weight: bold; font-size: 21px; margin-bottom: 20px;">Request Valuation</span>
+                        <form class="page25" action="#" style="margin-top: 20px;">
+                            <p>
+                              <input type="radio" id="test1" name="radio-group" checked>
+                              <label for="test1">15 seconds valuation</label>
+                            </p>
+                            <p>
+                              <input type="radio" id="test2" name="radio-group">
+                              <label for="test2">Full valuation</label>
+                            </p>
+                          </form>
+                        <div style="margin-top: 20px; ">
+                            <button class="profile-btn" type="submit ">Back to Home</button>
+                            <button class="profile-btn" type="submit ">Proceed</button>
                         </div>
                     </div>
                 </div>
