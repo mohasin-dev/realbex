@@ -1,9 +1,10 @@
 /***** base  *****/
 
-.arrow {
+.arrow1 {
     height: 21px;
     border-radius: 10px;
-    font-size: 40px;
+    font-size: 34px;
+    font-weight: 600;
     color: #002dc2de;
 }
 
@@ -39,6 +40,58 @@
     z-index: -1;
 }
 
+/* page 10 start  */
+.confForm{
+    padding: 0% 30% 0% 20%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.confEmail {
+    color: rgb(13, 13, 128);
+    font-size: 25px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.confImage {
+    width: 60%;
+
+    margin-top: 30px;
+    object-fit: cover;
+    margin-bottom: 7%;
+}
+
+.confText {
+    color: #000103;
+    font-size: 14px;
+    text-align: center;
+}
+
+.confLink {
+    color: #106ce6;
+}
+
+.confBtn {
+    background-color: #1b5db3;
+    text-align: center;
+    color: white;
+    height: 55px;
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.confBtn a {
+    color: white;
+    font-weight: 500;
+}
+
+/* page 10 end  */
+
 /***** End base  *****/
 
 /* new  */
@@ -46,8 +99,9 @@
 @media only screen and (min-device-width: 240px) and (max-device-width: 320px) {
     .arrow1 {
         border-radius: 10px;
-        font-size: 40px;
-        color: #002dc2de;
+        font-size: 33px;
+        font-weight: 600;
+        color: #1b5db3;
         position: absolute;
         left: 10%;
         top: 100px;
@@ -189,6 +243,58 @@
     }
 
     /* congratulations page  */
+
+    /* page 10 start  */
+    .confForm{
+        padding: 0% 5% 0% 5%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .confEmail {
+        color: rgb(13, 13, 128);
+        font-size: 20px;
+        padding-top: 40px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .confImage {
+        width: 60%;
+        margin-top: 30px;
+        object-fit: cover;
+        margin-bottom: 14%;
+    }
+
+    .confText {
+        color: #000103;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .confLink {
+        color: #106ce6;
+    }
+
+    .confBtn {
+        background-color: #1b5db3;
+        text-align: center;
+        color: white;
+        height: 40px;
+        width: 220px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 8%;
+    }
+
+    .confBtn a {
+        color: white;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    /* page 10 end  */
 }
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -201,10 +307,9 @@
     }
 
     .arrow1 {
-        height: 21px;
         border-radius: 10px;
-        font-size: 40px;
-        color: #002dc2de;
+        font-size: 34px;
+        color: #1b5db3;
         position: absolute;
         left: 11%;
         top: 100px;
@@ -346,6 +451,58 @@
     }
 
     /* congratulations page  */
+
+    /* page 10 start  */
+    .confForm{
+        padding: 0% 8% 0% 8%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .confEmail {
+        color: rgb(13, 13, 128);
+        font-size: 23px;
+        margin-top: 10%;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .confImage {
+        width: 50%;
+        margin-top: 30px;
+        object-fit: cover;
+        margin-bottom: 12%;
+    }
+
+    .confText {
+        color: #000103;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .confLink {
+        color: #106ce6;
+    }
+
+    .confBtn {
+        background-color: #1b5db3;
+        text-align: center;
+        color: white;
+        height: 44px;
+        width: 270px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 10%;
+    }
+
+    .confBtn a {
+        color: white;
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    /* page 10 end  */
 }
 
 /*  (portrait and landscape) ----------- */
@@ -357,16 +514,13 @@
         overflow: hidden;
     }
 
-    .progressBar {
-    }
-
     .arrow1 {
         border-radius: 10px;
-        font-size: 51px;
-        color: #002dc2de;
+        font-size: 40px;
+        color: #1b5db3;
         position: absolute;
-        left: 11%;
-        top: 97px;
+        left: 15%;
+        top: 99px;
     }
     .arrow2 {
         height: 21px;
@@ -387,6 +541,7 @@
         background-color: #d0d3dd;
         display: inline-flex;
         margin-left: 8px;
+        text-align: center;
     }
 
     .round {
@@ -505,6 +660,57 @@
         text-decoration: none;
         font-size: 18px;
     }
+
+    /* page 10 start  */
+    .confForm{
+        padding: 0% 6% 0% 6%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .confEmail {
+        color: rgb(13, 13, 128);
+        font-size: 25px;
+        margin-top: 8%;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .confImage {
+        width: 50%;
+        margin-top: 30px;
+        object-fit: cover;
+        margin-bottom: 12%;
+    }
+
+    .confText {
+        color: #000103;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .confLink {
+        color: #106ce6;
+    }
+
+    .confBtn {
+        background-color: #1b5db3;
+        text-align: center;
+        color: white;
+        height: 50px;
+        width: 300px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 10%;
+    }
+
+    .confBtn a {
+        color: white;
+        font-weight: 500;
+        font-size: 17px;
+    }
+
+    /* page 10 end  */
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -517,16 +723,14 @@
         overflow: hidden;
     }
 
-    .progressBar {
-    }
-
     .arrow1 {
         border-radius: 10px;
-        font-size: 51px;
-        color: #002dc2de;
+        font-size: 45px;
+        color: #1b5db3;
         position: absolute;
-        left: 18%;
-        top: 97px;
+        left: 20%;
+        top: 96px;
+        text-align: center;
     }
     .arrow2 {
         height: 21px;
@@ -665,4 +869,56 @@
         text-decoration: none;
         font-size: 18px;
     }
+
+    /* page 10 start  */
+    .confForm{
+        padding: 0% 8% 0% 8%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .confEmail {
+        color: rgb(13, 13, 128);
+        font-size: 30px;
+        margin-top: 6%;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .confImage {
+        width: 40%;
+        margin-top: 30px;
+        object-fit: cover;
+        margin-bottom: 7%;
+    }
+
+    .confText {
+        color: #000103;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .confLink {
+        color: #106ce6;
+    }
+
+    .confBtn {
+        background-color: #1b5db3;
+        text-align: center;
+        color: white;
+        height: 60px;
+        width: 90%;
+        border: none;
+        border-radius: 10px;
+        margin-top: 10%;
+    }
+
+    .confBtn a {
+        color: white;
+        font-weight: 500;
+        font-size: 17px;
+    }
+
+    /* page 10 end  */
 }
