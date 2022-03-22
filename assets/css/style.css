@@ -1,12 +1,6 @@
-                                                /**
-* Template Name: Regna - v4.7.0
-* Template URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-                                            /*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700&display=swap");
                                             
 body {
   background: #fff;
@@ -2136,11 +2130,247 @@ left: -100%;
 
 }
 
+/*--------------------------------------------------------------
+# Css for the My Profile
+# Css End here
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Css for the Page - 18
+# Css Start here
+--------------------------------------------------------------*/
+
+@media only screen and (max-width: 428px){
+
+
+  #body-temp18{
+    padding: 0 8%;
+  }
+
+  #head18{
+    position: relative;
+    
+  }
+
+  #head18 h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #092358;
+    margin-left: 34px;
+    padding-top: 22%;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  #head18 .arow-size {
+    width: 18px;
+    color: #205fb7;
+    position: absolute;
+    top: 70%;
+    left: 6px;
+  }
+
+  .main-contain{
+    padding-top: 45%;
+  }
+
+  .page-contain{
+
+  }
+  
+  .page-contain h3{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #003060;
+  }
+  
+  .page-contain p{
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    color: #003060;
+    padding-top: 0px;
+  }
+
+  .form-group{
+    position: relative;
+    padding-top: 10px;
+  }
+
+  input[type="text"].incolor2::-webkit-input-placeholder {
+    font-size: 15px!important;
+    font-weight: 500;
+  }
+
+  .form-group .form-control{
+    display: block;
+    width: 86%;
+    margin-left: 7%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 3px solid #ced4da;
+    appearance: none;
+    border-radius: 18px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+
+  .finger-thamb{
+    width: 34px;
+  }
+
+  .form-group .finger-action{
+    position: absolute;
+    color: #3d3a3b;
+    top: 34%;
+    left: 20%;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+
+}
+
+@media only screen and (max-width: 375px){
+
+  #head18 h2 {
+    font-size: 22px;
+    margin-left: 30px;
+    padding-top: 22%;
+}
+
+#head18 .arow-size {
+  width: 16px;
+  color: #205fb7;
+  position: absolute;
+  top: 70%;
+  left: 6px;
+}
+
+  .form-group .finger-action {
+    position: absolute;
+    color: #3d3a3b;
+    top: 36%;
+    left: 20%;
+    font-size: 15px;
+    font-weight: 500;
+}
+.finger-thamb {
+  width: 32px;
+}
+
+.page-contain p {
+  font-size: 11px;
+  font-weight: 400;
+  text-align: center;
+  color: #003060;
+  padding-top: 0px;
+}
+
+.page-contain h3 {
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  color: #003060;
+}
+
+.form-group .form-control {
+  width: 86%;
+  margin-left: 7%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+}
+
+@media only screen and (max-width: 320px){
+
+
+  #head18 .arow-size {
+    width: 15px;
+    color: #205fb7;
+    position: absolute;
+    top: 70%;
+    left: 6px;
+}
+
+  .form-group .finger-action {
+    position: absolute;
+    color: #3d3a3b;
+    top: 34%;
+    left: 18%;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+}
+
+@media only screen and (max-width: 280px){
+  
+  #head18 h2 {
+    font-size: 18px;
+    margin-left: 30px;
+    padding-top: 22%;
+}
+
+#head18 h2 {
+  font-size: 18px;
+  margin-left: 26px;
+  padding-top: 22%;
+}
+
+#head18 .arow-size {
+  width: 12px;
+  color: #205fb7;
+  position: absolute;
+  top: 70%;
+}
+
+.page-contain h3 {
+  font-size: 18px;
+}
+
+.page-contain p {
+  font-size: 10px;
+}
+
+.form-group {
+  padding-top: 8px;
+}
+
+.form-group .form-control {
+  padding : 14px 0px;
+}
+
+.form-group .finger-action {
+  font-size: 12px;
+  top: 38%;
+}
+
+.finger-thamb {
+  width: 26px;
+}
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+}
 
 
 
