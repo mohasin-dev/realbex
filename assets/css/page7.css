@@ -8,6 +8,15 @@
     color: #002dc2de;
 }
 
+.arrow-left {
+    width: 17px;
+    height: 17px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5%;
+    margin-left: -20% !important;
+}
+
 .verifForm {
     padding: 15%;
     align-items: center;
@@ -224,6 +233,15 @@
         position: absolute;
         left: 10%;
         top: 100px;
+    }
+
+    .arrow-left {
+        width: 17px;
+        height: 17px;
+        align-items: center;
+        justify-content: center;
+        margin-top: -5%;
+        margin-left: -20% !important;
     }
     .arrow2 {
         border-radius: 10px;
@@ -582,6 +600,15 @@
         left: 11%;
         top: 100px;
     }
+
+    .arrow-left {
+        width: 20px;
+        height: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-top: -3%;
+        margin-left: -14% !important;
+    }
     .arrow2 {
         height: 21px;
         border-radius: 10px;
@@ -782,16 +809,16 @@
     .welEmail {
         color: rgb(13, 13, 128);
         font-size: 30px;
-        margin-top: 10%;
+        margin-top: -2%;
         text-align: left;
         font-weight: 600;
     }
 
     .welText {
         color: #000103;
-        font-size: 16px;
+        font-size: 15px;
         text-align: left;
-        margin-top: 10%;
+        margin-top: 7%;
         padding-right: 10%;
     }
 
@@ -799,6 +826,7 @@
         color: #8f949b;
         text-decoration: underline;
         margin-top: 5%;
+        font-size: 13px;
     }
 
     .welBtn {
@@ -937,6 +965,15 @@
         position: absolute;
         left: 15%;
         top: 99px;
+    }
+
+    .arrow-left {
+        width: 24px;
+        height: 24px;
+        align-items: center;
+        justify-content: center;
+        margin-top: -5%;
+        margin-left: -9% !important;
     }
     .arrow2 {
         height: 21px;
@@ -1300,6 +1337,15 @@
         top: 96px;
         text-align: center;
     }
+
+    .arrow-left {
+        width: 24px;
+        height: 24px;
+        align-items: center;
+        justify-content: center;
+        margin-top: -5%;
+        margin-left: 18% !important;
+    }
     .arrow2 {
         height: 21px;
         border-radius: 10px;
@@ -1311,8 +1357,8 @@
     }
 
     .round span {
-        height: 31px;
-        width: 31px;
+        height: 28px;
+        width: 28px;
         border: #9ea0a6 1px solid;
         border-radius: 50%;
         border: none;

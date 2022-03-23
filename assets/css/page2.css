@@ -262,7 +262,6 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        
     }
 
     .pass-p {
@@ -323,6 +322,101 @@
     }
 
     /* page -3 */
+
+    /* page 8 */
+    .sliderForm {
+        width: 90%;
+        /* background-color: rgb(184, 162, 162); */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tab-bar {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        padding: 0% 0% 0% 0%;
+        top: 10%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .round {
+        height: 23px;
+        width: 23px;
+        margin-right: 1%;
+        border: #9ea0a6 1px solid;
+        border-radius: 50%;
+        border: none;
+        background-color: #d0d3dd;
+    }
+
+    .arrow-left {
+        width: 15px;
+        height: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+    .forms {
+        margin-top: 40%;
+    }
+
+    .forms h3 {
+        color: #13136e;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        font-weight: 500;
+    }
+
+    .form-inp input {
+        display: block;
+        height: 30px;
+        width: 100%;
+        margin-top: 2%;
+        border: none;
+        background-color: #e9ebf1ad;
+        padding-left: 17px;
+    }
+
+    .mbl input {
+        display: inline;
+        height: 30px;
+        width: 60%;
+        margin-top: 2%;
+        border: none;
+        background-color: #e9ebf1ad;
+        padding-left: 17px;
+    }
+
+    .mbl select {
+        height: 30px;
+        width: 40%;
+        margin-top: 2%;
+        border: none;
+        background-color: #e9ebf1ad;
+        padding-left: 17px;
+    }
+
+    .pro-btn {
+        /* background-color: rgba(11, 96, 207, 0.925); */
+        border: none;
+        height: 35px;
+        width: 64%;
+        margin-top: 16%;
+        margin-left: 18%;
+        border-radius: 5px;
+        color: white;
+        font-size: 15px;
+        background-color: #085dcce3;
+    }
+
+    .pro-btn a {
+        color: white;
+    }
+
+    /* page 8 */
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 482px) {
@@ -424,14 +518,13 @@
         color: #073777;
     }
 
-     /* page -3 */
-     .uaePassDiv {
+    /* page -3 */
+    .uaePassDiv {
         width: 70%;
         /* background-color: rgb(184, 162, 162); */
         justify-content: center;
         align-items: center;
         text-align: center;
-        
     }
 
     .pass-p {
@@ -492,6 +585,103 @@
     }
 
     /* page -3 */
+
+    
+    /* page 8 */
+    .sliderForm {
+        width: 90%;
+        /* background-color: rgb(184, 162, 162); */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tab-bar {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        padding: 7% 0% 0% 10%;
+        top: 10%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .round {
+        height: 28px;
+        width: 28px;
+        margin-right: 4% !important;
+        border: #9ea0a6 1px solid;
+        border-radius: 50%;
+        border: none;
+        background-color: #d0d3dd;
+    }
+
+    .arrow-left {
+        width: 15px;
+        height: 15px;
+        margin-left: -1% !important;
+        align-items: center;
+        justify-content: center;
+    }
+    .forms {
+        margin-top: 40%;
+    }
+
+    .forms h3 {
+        color: #13136e;
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 17%;
+        font-weight: 500;
+    }
+
+    .form-inp input {
+        display: block;
+        height: 30px;
+        width: 100%;
+        margin-top: 2%;
+        border: none;
+        background-color: #e9ebf1ad;
+        padding-left: 17px;
+    }
+
+    .mbl input {
+        display: inline;
+        height: 30px;
+        width: 65%;
+        margin-top: 2%;
+        border: none;
+        background-color: #e9ebf1ad;
+        padding-left: 17px;
+    }
+
+    .mbl select {
+        height: 30px;
+        width: 35%;
+        margin-top: 2%;
+        border: none;
+        background-color: #e9ebf1ad;
+        padding-left: 17px;
+    }
+
+    .pro-btn {
+        /* background-color: rgba(11, 96, 207, 0.925); */
+        border: none;
+        height: 45px;
+        width: 64%;
+        margin-top: 16%;
+        margin-left: 18%;
+        border-radius: 5px;
+        color: white;
+        font-size: 15px;
+        background-color: #085dcce3;
+    }
+
+    .pro-btn a {
+        color: white;
+    }
+
+    /* page 8 */
 }
 
 @media only screen and (min-device-width: 480px) and (max-device-width: 575px) {
@@ -593,77 +783,166 @@
         color: #073777;
     }
 
-        /* page -3 */
-        .uaePassDiv {
-            width: 70%;
-            /* background-color: rgb(184, 162, 162); */
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            
-        }
-    
-        .pass-p {
-            margin-top: 30%;
-            font-size: 15px;
-            font-weight: 400;
-            color: #0a1b47e8;
-        }
-    
-        .auth-p {
-            color: #137513;
-            font-size: 21px;
-            margin-top:5%;
-            margin-bottom: 12%;
-            font-weight: 400;
-        }
-    
-        .auth-img {
-            width: 52vw;
-            
-        }
-    
-        .log-p {
-            margin-top: 1%;
-            margin-bottom: 5%;
-            color: #0a1b47e8;
-            font-size: 14px;
-        }
-    
-        .real-p {
-            font-size: 15px;
-            color: #137513;
-        }
-    
-        .confirm-btn {
-            height: 45px;
-            background-color: #9ea0a6;
-            border: none;
-            border-radius: 10px;
-            width: 64vw;
-            margin-top: 12%;
-            margin-bottom: 8%;
-            font-weight: 500;
-            font-size: 21px;
-            
-        }
-    
-        .confirm-btn a {
-            color: white;
-            font-size: 18px;
-        }
-    
-        .cancel-a {
-            text-decoration: none;
-            color: rgb(21, 139, 21);
-            font-size: 18px;
-            font-weight: 400;
-            margin-top: 20%;
-        }
-    
-        /* page -3 */
+    /* page -3 */
+    .uaePassDiv {
+        width: 70%;
+        /* background-color: rgb(184, 162, 162); */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
+    .pass-p {
+        margin-top: 30%;
+        font-size: 15px;
+        font-weight: 400;
+        color: #0a1b47e8;
+    }
 
+    .auth-p {
+        color: #137513;
+        font-size: 21px;
+        margin-top: 5%;
+        margin-bottom: 12%;
+        font-weight: 400;
+    }
+
+    .auth-img {
+        width: 52vw;
+    }
+
+    .log-p {
+        margin-top: 1%;
+        margin-bottom: 5%;
+        color: #0a1b47e8;
+        font-size: 14px;
+    }
+
+    .real-p {
+        font-size: 15px;
+        color: #137513;
+    }
+
+    .confirm-btn {
+        height: 45px;
+        background-color: #9ea0a6;
+        border: none;
+        border-radius: 10px;
+        width: 64vw;
+        margin-top: 12%;
+        margin-bottom: 8%;
+        font-weight: 500;
+        font-size: 21px;
+    }
+
+    .confirm-btn a {
+        color: white;
+        font-size: 18px;
+    }
+
+    .cancel-a {
+        text-decoration: none;
+        color: rgb(21, 139, 21);
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 20%;
+    }
+
+    /* page -3 */
+
+      /* page 8 */
+      .sliderForm {
+        width: 90%;
+        /* background-color: rgb(184, 162, 162); */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tab-bar {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        padding: 7% 0% 0% 16%;
+        top: 10%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .round {
+        height: 28px;
+        width: 28px;
+        margin-right: 7% !important;
+        border: #9ea0a6 1px solid;
+        border-radius: 50%;
+        border: none;
+        background-color: #d0d3dd;
+    }
+
+    .arrow-left {
+        width: 15px;
+        height: 15px;
+        margin-left: -5% !important;
+        align-items: center;
+        justify-content: center;
+    }
+    .forms {
+        margin-top: 40%;
+    }
+
+    .forms h3 {
+        color: #13136e;
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        font-weight: 500;
+    }
+
+    .form-inp input {
+        display: block;
+        height: 30px;
+        width: 100%;
+        margin-top: 2%;
+        border: none;
+        background-color: #e9ebf1ad;
+        padding-left: 17px;
+    }
+
+    .mbl input {
+        display: inline;
+        height: 30px;
+        width: 77%;
+        margin-top: 2%;
+        border: none;
+        background-color: #e9ebf1ad;
+        padding-left: 17px;
+    }
+
+    .mbl select {
+        height: 30px;
+        width: 23%;
+        margin-top: 2%;
+        border: none;
+        background-color: #e9ebf1ad;
+        padding-left: 17px;
+    }
+
+    .pro-btn {
+        /* background-color: rgba(11, 96, 207, 0.925); */
+        border: none;
+        height: 45px;
+        width: 64%;
+        margin-top: 16%;
+        margin-left: 18%;
+        border-radius: 5px;
+        color: white;
+        font-size: 15px;
+        background-color: #085dcce3;
+    }
+
+    .pro-btn a {
+        color: white;
+    }
 }
 
 @media only screen and (min-device-width: 575px) and (max-device-width: 980px) {
@@ -762,15 +1041,13 @@
         color: #073777;
     }
 
-
-      /* page -3 */
-      .uaePassDiv {
+    /* page -3 */
+    .uaePassDiv {
         width: 70%;
         /* background-color: rgb(184, 162, 162); */
         justify-content: center;
         align-items: center;
         text-align: center;
-        
     }
 
     .pass-p {
@@ -783,14 +1060,13 @@
     .auth-p {
         color: #137513;
         font-size: 21px;
-        margin-top:5%;
+        margin-top: 5%;
         margin-bottom: 12%;
         font-weight: 400;
     }
 
     .auth-img {
         width: 52vw;
-        
     }
 
     .log-p {
@@ -815,7 +1091,6 @@
         margin-bottom: 8%;
         font-weight: 500;
         font-size: 21px;
-        
     }
 
     .confirm-btn a {
@@ -832,4 +1107,98 @@
     }
 
     /* page -3 */
+
+      /* page 8 */
+      .sliderForm {
+        width: 90%;
+        /* background-color: rgb(184, 162, 162); */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tab-bar {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        padding: 7% 0% 0% 16%;
+        top: 10%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .round {
+        height: 28px;
+        width: 28px;
+        margin-right: 7% !important;
+        border: #9ea0a6 1px solid;
+        border-radius: 50%;
+        border: none;
+        background-color: #d0d3dd;
+    }
+
+    .arrow-left {
+        width: 15px;
+        height: 15px;
+        margin-left: -5% !important;
+        align-items: center;
+        justify-content: center;
+    }
+    .forms {
+        margin-top: 40%;
+    }
+
+    .forms h3 {
+        color: #13136e;
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        font-weight: 500;
+    }
+
+    .form-inp input {
+        display: block;
+        height: 30px;
+        width: 100%;
+        margin-top: 2%;
+        border: none;
+        background-color: #e9ebf1ad;
+        padding-left: 17px;
+    }
+
+    .mbl input {
+        display: inline;
+        height: 30px;
+        width: 77%;
+        margin-top: 2%;
+        border: none;
+        background-color: #e9ebf1ad;
+        padding-left: 17px;
+    }
+
+    .mbl select {
+        height: 30px;
+        width: 23%;
+        margin-top: 2%;
+        border: none;
+        background-color: #e9ebf1ad;
+        padding-left: 17px;
+    }
+
+    .pro-btn {
+        /* background-color: rgba(11, 96, 207, 0.925); */
+        border: none;
+        height: 45px;
+        width: 64%;
+        margin-top: 16%;
+        margin-left: 18%;
+        border-radius: 5px;
+        color: white;
+        font-size: 15px;
+        background-color: #085dcce3;
+    }
+
+    .pro-btn a {
+        color: white;
+    }
 }
