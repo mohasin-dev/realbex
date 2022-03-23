@@ -1385,7 +1385,11 @@ left: -100%;
 # Css for the complete profile setup page
 # Css starts here
 --------------------------------------------------------------*/
-
+input[type="text"].incolor::-webkit-input-placeholder {
+  font-size: 16px;
+  font-weight: 500;
+  color: #7c8694;
+}
 
 
 @media (max-width: 428px) {
@@ -1512,7 +1516,7 @@ left: -100%;
 .title{
   font-size: 16px;
   font-weight: 500;
-  color: #a9a9a9;
+  color: #7c8694;
   font-family: 'Raleway', sans-serif;
 }
 .sub-tittle{
@@ -2190,6 +2194,7 @@ left: -100%;
     text-align: center;
     color: #003060;
     padding-top: 0px;
+    padding-bottom: 44px;
   }
 
   .form-group{
@@ -2221,18 +2226,36 @@ left: -100%;
   }
 
   .finger-thamb{
-    width: 34px;
+    width: 24px;
   }
 
   .form-group .finger-action{
     position: absolute;
     color: #3d3a3b;
     top: 34%;
-    left: 20%;
+    left: 22%;
     font-size: 18px;
     font-weight: 500;
   }
 
+
+}
+
+@media only screen and (max-width: 414px){
+
+  .form-group .finger-action {
+    left: 20%;
+    top: 37%;
+}
+
+}
+
+@media only screen and (max-width: 393px){
+
+  .form-group .finger-action {
+    left: 18%;
+    top: 38%;
+}
 
 }
 
@@ -2248,7 +2271,7 @@ left: -100%;
   width: 16px;
   color: #205fb7;
   position: absolute;
-  top: 70%;
+  top: 72%;
   left: 6px;
 }
 
@@ -2261,7 +2284,7 @@ left: -100%;
     font-weight: 500;
 }
 .finger-thamb {
-  width: 32px;
+  width: 24px;
 }
 
 .page-contain p {
@@ -2270,6 +2293,7 @@ left: -100%;
   text-align: center;
   color: #003060;
   padding-top: 0px;
+  padding-bottom: 38px;
 }
 
 .page-contain h3 {
@@ -2288,6 +2312,10 @@ left: -100%;
 
 }
 
+
+
+
+
 @media only screen and (max-width: 320px){
 
 
@@ -2302,7 +2330,7 @@ left: -100%;
   .form-group .finger-action {
     position: absolute;
     color: #3d3a3b;
-    top: 34%;
+    top: 37%;
     left: 18%;
     font-size: 14px;
     font-weight: 500;
@@ -2350,10 +2378,11 @@ left: -100%;
 .form-group .finger-action {
   font-size: 12px;
   top: 38%;
+  left: 20%;
 }
 
 .finger-thamb {
-  width: 26px;
+  width: 18px;
 }
 
 }
@@ -2590,6 +2619,21 @@ left: -100%;
 
 }
 
+@media only screen and (max-width: 414px){
+
+    .p-button {
+      left: 8%;
+  }
+}
+
+@media only screen and (max-width: 393px){
+
+    .p-button {
+      left: 5%;
+  }
+}
+
+
 @media only screen and (max-width: 375px){
 
   #head27{
@@ -2755,6 +2799,20 @@ left: -100%;
       border: 1px solid #749cd2;
       border-radius: 100%;
       background: #fff;
+  }
+
+  [type="radio"]:checked+label:after,
+  [type="radio"]:not(:checked)+label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #4f81bd;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
   }
 
  
@@ -2959,6 +3017,20 @@ left: -100%;
       border: 1px solid #749cd2;
       border-radius: 100%;
       background: #fff;
+  }
+
+  [type="radio"]:checked+label:after,
+  [type="radio"]:not(:checked)+label:after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #4f81bd;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
   }
 
 }
@@ -3168,7 +3240,219 @@ left: -100%;
 
 }
 
+/*--------------------------------------------------------------
+# Css for the Page - 27
+# Css End here
+--------------------------------------------------------------*/
 
+
+/*--------------------------------------------------------------
+# Css for the loading Page
+# Css Start here
+--------------------------------------------------------------*/
+
+
+
+
+.rotate1 {
+  animation: rotation1 2.5s infinite linear;
+}
+
+@keyframes rotation1 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.rotate2 {
+  animation: rotation1 1.5s infinite linear;
+}
+
+@keyframes rotation2 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+
+@media only screen and (max-width: 428px){
+
+  #body-temp30{
+    padding-left: 9%;
+    padding-right: 9%;
+  }
+
+  #head1 h2 {
+    font-size: 23px;
+    font-weight: 600;
+    color: #092358;
+    margin-left: 32px;
+    padding-top: 22%;
+}
+
+  .body-content{
+    position: relative;
+  }
+
+  .loader{
+    text-align: center; 
+    padding-top: 94%;
+  }
+  .rotate-image1{
+    position: absolute;
+    width: 32%;
+    top: 52%;
+    left: 32%;
+  }
+  
+  .rotate-image2{
+    position: absolute;
+    width: 32%;
+    top: 52%;
+    left: 32%;
+  }
+
+  .loader h6{
+    color: #003060;
+    line-height: 1.3;
+    font-size: 17px;
+    font-weight: 500;
+  }
+
+}
+
+@media only screen and (max-width: 375px){
+
+  #body-temp30{
+    padding-left: 9%;
+    padding-right: 9%;
+  }
+
+  #head1 h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #092358;
+    margin-left: 32px;
+    padding-top: 22%;
+}
+
+#head1 .arow-size {
+  width: 14px;
+  color: #205fb7;
+  position: absolute;
+  top: 72%;
+  left: 6px;
+}
+
+  .body-content{
+    position: relative;
+  }
+
+  .loader{
+    text-align: center; 
+    padding-top: 94%;
+  }
+  .rotate-image1{
+    position: absolute;
+    width: 32%;
+    top: 52%;
+    left: 32%;
+  }
+  
+  .rotate-image2{
+    position: absolute;
+    width: 32%;
+    top: 52%;
+    left: 32%;
+  }
+
+  .loader h6{
+    color: #003060;
+    line-height: 1.3;
+    font-size: 17px;
+    font-weight: 500;
+  }
+
+}
+
+@media only screen and (max-width: 320px){
+  #head1 h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #092358;
+    margin-left: 32px;
+    padding-top: 22%;
+}
+
+#head1 .arow-size {
+  width: 13px;
+  color: #205fb7;
+  position: absolute;
+  top: 70%;
+  left: 8px;
+}
+
+.rotate-image1 {
+  position: absolute;
+  width: 32%;
+  top: 45%;
+  left: 32%;
+}
+
+.rotate-image2 {
+  position: absolute;
+  width: 32%;
+  top: 45%;
+  left: 32%;
+}
+
+.loader h6 {
+  color: #003060;
+  line-height: 1.3;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 280px){
+  #head1 h2 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #092358;
+    margin-left: 32px;
+    padding-top: 22%;
+}
+
+#head1 .arow-size {
+  width: 11px;
+  color: #205fb7;
+  position: absolute;
+  top: 71%;
+  left: 14px;
+}
+
+.loader h6 {
+  color: #003060;
+  line-height: 1.3;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+}
+
+
+@media only screen and (max-width: 375px){}
 
 
 

@@ -393,7 +393,7 @@ h6 {
 #hero .hero-container {
   position: absolute;
   bottom: 0;
-  top: 0;
+  top: -20%;
   left: 0;
   right: 0;
   display: flex;
@@ -1108,7 +1108,7 @@ section {
 
 .get-started {
   position: absolute;
-  bottom: 3%;
+  bottom: 10%;
 }
 
 #profile .profile img {
@@ -1138,7 +1138,7 @@ section {
   padding: 0 80px;
 }
 
- .property-card {
+.property-card {
   border: none;
   min-height: 250px;
   background-color: #d7e2f2;
@@ -1183,11 +1183,11 @@ section {
 }
 
 .profile-btn {
-  background: #205fb7;
+  background: #205fb7 !important;
   border: 0;
   width: 160px;
   border-radius: 6px;
-  padding: 10px;
+  padding: 6px 10px;
   color: #fff;
   transition: 0.4s;
 }
@@ -1219,48 +1219,7 @@ section {
   transition: 0.4s;
 }
 
-@media (max-width: 420px) {
-  .page21-head {
-    padding: 20px 12px;
-  }
 
-  .property-card .mortages-card table tbody tr td {
-    font-size: 14px;
-  }
-  #hero h1 {
-    font-size: 36px;
-    line-height: 36px;
-    font-family: "Raleway", sans-serif;
-  }
-  #hero .btn-get-started {
-    font-size: 18px;
-  }
-  #hero h2 {
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 26px;
-  }
-  #profile .img-div {
-    margin-right: 40px;
-    padding: 0 15px;
-  }
-  #profile .profile img {
-    min-width: 100px;
-    margin-right: 20px;
-  }
-  #profile .welcome-box {
-    font-size: 20px;
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-  }
-  #profile table th {
-    font-size: 24px;
-  }
-  #profile .mortages-card table th {
-    font-size: 20px;
-  }
-}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (max-width: 600px) {
   .page21-head {
@@ -1322,7 +1281,7 @@ section {
   }
   #hero .get-started {
     position: absolute;
-    bottom: 3%;
+    bottom: 10%;
   }
   #header #logo img {
     display: none;
@@ -1395,16 +1354,152 @@ section {
 # Css for the mobile responsive
 --------------------------------------------------------------*/
 
+.btn-success {
+  padding: 6px 25px;
+  color: #fff;
+  background-color: #205fb7 !important;
+  border-color: #205fb7 !important;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+@media (max-width: 428px) {
+  .top-service {
+    padding-left: 7%;
+  }
+  #page26 .top-service {
+    padding-left: 6%;
+  }
+  #page26 .btn-success {
+    padding: 6px 25px;
+    color: #fff;
+    background-color: #205fb7 !important;
+    border-color: #205fb7 !important;
+    font-size: 15px;
+    border-radius: 6px;
+    margin-right: 10px;
+  }
+  #page26 .btn-disable {
+    padding: 6px 8px;
+    color: #fff;
+    background-color: #ccc;
+    border-color: #ccc;
+    width: 133px;
+    font-size: 15px;
+  }
+  #profile .mortages-card table th {
+    font-size: 20px;
+  }
+  #page {
+    width: 100%;
+    position: relative;
+    padding: 30px 10px 10px;
+  }
+  #page .h2 {
+    padding-left: 15px;
+  }
+
+  #page h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #092358;
+    margin-left: 14px;
+    padding-top: 40px;
+    margin-bottom: 8px;
+  }
+
+  #page h3 {
+    font-weight: bold;
+    color: #205fb7 !important;
+    padding-left: 15px;
+  }
+
+  #page .arow-size {
+    width: 15px;
+    color: #205fb7 !important;
+    position: fixed;
+    top: 60px;
+    left: 34px;
+  }
+
+  #page .property-card {
+    min-height: 80px;
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 414px) {
+  .page21-head {
+    padding: 20px 12px;
+  }
+
+  #page26 .btn-success {
+    padding: 6px 20px;
+  }
+
+  .property-card .mortages-card table tbody tr td {
+    font-size: 14px;
+  }
+  #hero h1 {
+    font-size: 36px;
+    line-height: 36px;
+    font-family: "Raleway", sans-serif;
+  }
+  #hero .btn-get-started {
+    font-size: 18px;
+  }
+  #hero h2 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 26px;
+  }
+  #profile .img-div {
+    margin-right: 40px;
+    padding: 0 15px;
+  }
+  #profile .profile img {
+    min-width: 100px;
+    margin-right: 20px;
+  }
+  #profile .welcome-box {
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+  }
+  #profile table th {
+    font-size: 24px;
+  }
+  #profile .mortages-card table th {
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 390px) {
+  #page26 .btn-success {
+    padding: 6px 18px;
+    font-size: 14px;
+  }
+
+  #page26 .btn-success {
+    padding: 6px 8px;
+    color: #fff;
+    background-color: #205fb7 !important;
+    border-color: #205fb7 !important;
+    font-size: 15px;
+    border-radius: 6px;
+    margin-right: 10px;
+  }
+  
+  .top-service {
+    padding-left: 2%;
+  }
   #profile .mortages-card table th {
     font-size: 20px;
   }
   #body-temp {
     padding-left: 6%;
     padding-right: 6%;
-  }
-
-  #head {
   }
 
   #head h2 {
@@ -1417,7 +1512,7 @@ section {
 
   #head .arow-size {
     width: 15px;
-    color: #205fb7;
+    color: #205fb7 !important;
     position: fixed;
     top: 60px;
     left: 24px;
@@ -1534,165 +1629,74 @@ section {
     padding-left: 36px;
     padding-right: 36px;
   }
+}
 
-  /* #getId{
-  background-color: #000;
-    border-radius: 50%;
-    margin-top: 0px;
+
+/* @media (max-width: 410px) {
+  .btn-success {
+    padding: 8px 34px;
+    color: #fff;
+    background-color: #205fb7 !important;
+    border-color: #205fb7 !important;
+    border-radius: 6px;
+    margin-right: 10px;
+  }
 } */
 
-  /* 
-
-
-
-.Neon {
-  font-family: sans-serif;
-  font-size: 14px;
-  color: #494949;
-  position: relative;
-  
-
-}
-.Neon * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.Neon-input-dragDrop .Neon-input-icon {
-  font-size: 48px;
-  margin-top: -10px;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-.Neon-input-text h3 {
-  margin: 0;
-  font-size: 18px;
-}
-.Neon-input-choose-btn.blue {
-  color: #008BFF;
-  border: 1px solid #008BFF;
-}
-.Neon-input-choose-btn {
-  display: inline-block;
-  padding: 8px 14px;
-  outline: none;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
-  white-space: nowrap;
-  font-size: 12px;
-  font-weight: bold;
-  color: #8d9496;
-  border-radius: 3px;
-  border: 1px solid #c6c6c6;
-  vertical-align: middle;
-  background-color: #fff;
-  box-shadow: 0px 1px 5px rgba(0,0,0,0.05);
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
- */
-}
-
-
-
-@media (max-width: 428px) {
-  #page26 .btn-success {
-    padding: 6px 8px;
-    color: #fff;
-    background-color: #205fb7;
-    border-color: #205fb7;
-    font-size: 15px;
-  }
-  #page26 .btn-disable {
-    padding: 6px 8px;
-    color: #fff;
-    background-color: #ccc;
-    border-color: #ccc;
-    width: 133px;
-    font-size: 15px;
-  }
-  #profile .mortages-card table th {
-    font-size: 20px;
-  }
-  #page {
-    width: 100%;
-    position: relative;
-    padding: 30px 10px 10px;
-  }
-  #page .h2{ 
-    padding-left: 15px;
-   }
-
-  #page h2 {
-    font-size: 24px;
-    font-weight: 600;
-    color: #092358;
-    margin-left: 14px;
-    padding-top: 40px;
-    margin-bottom: 8px;
-  }
-
-  #page h3 {
-    font-weight: bold;
-    color: #205fb7;
-    padding-left: 15px;
-  }
-
-  #page .arow-size {
-    width: 15px;
-    color: #205fb7;
-    position: fixed;
-    top: 60px;
-    left: 34px;
-  }
-
-  #page .property-card {
-    min-height: 80px;
-    padding: 30px 20px;
-  }
-}
-
 @media (max-width: 375px) {
-  #page26 .btn-success {
-    padding: 6px;
-    color: #fff;
-    background-color: #205fb7;
-    border-color: #205fb7;
-    font-size: 14px;
+  .top-service {
+    padding-left: 2%;
   }
-  #page26 .btn-disable {
-    padding: 6px;
+  .btn-success {
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #205fb7 !important;
+    border-color: #205fb7 !important;
+    border-radius: 6px;
+    margin-right: 10px;
+  }
+    #page26 .btn-success {
+    padding: 6px 8px;
+    color: #fff;
+    background-color: #205fb7 !important;
+    border-color: #205fb7 !important;
+    font-size: 14px;
+    border-radius: 6px;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  #page26 .btn-success, #page26 .btn-disable {
+    padding: 6px 8px;
     color: #fff;
     background-color: #ccc;
     border-color: #ccc;
-    width: 133px;
     font-size: 14px;
+    border-radius: 6px;
+    width: 100%;
+    margin-top: 10px;
   }
+
   .profile-btn {
-    background: #205fb7;
+    background: #205fb7 !important;
     border: 0;
     width: 150px;
     border-radius: 6px;
-    padding: 7px;
+    padding: 6px 10px;
     color: #fff;
     transition: 0.4s;
-}
+  }
   #profile .mortages-card table th {
-    font-size: 19px;
+    font-size: 17px;
   }
   #page {
     width: 100%;
     position: relative;
     padding: 30px 10px 10px;
   }
-  #page .h2{ 
+  #page .h2 {
     padding-left: 15px;
-   }
+  }
 
   #page h2 {
     font-size: 24px;
@@ -1705,13 +1709,13 @@ section {
 
   #page h3 {
     font-weight: bold;
-    color: #205fb7;
+    color: #205fb7 !important;
     padding-left: 15px;
   }
 
   #page .arow-size {
     width: 15px;
-    color: #205fb7;
+    color: #205fb7 !important;
     position: fixed;
     top: 60px;
     left: 34px;
@@ -1719,17 +1723,41 @@ section {
   #page .property-card {
     min-height: 80px;
     padding: 30px 20px;
+  }
+}
+
+@media (max-width: 370px) {
+  .btn-success {
+    padding: 6px 15px;
+    color: #fff;
+    background-color: #205fb7 !important;
+    border-color: #205fb7 !important;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 6px;
+    margin-right: 10px;
   }
 }
 
 @media (max-width: 320px) {
+  .btn-success {
+    font-size: 14px;
+    width: 100%;
+    padding: 6px 15px;
+    color: #fff;
+    background-color: #205fb7 !important;
+    border-color: #205fb7 !important;
+    margin-bottom: 10px;
+    border-radius: 6px;
+  }
   #page26 .btn-success {
     padding: 6px 8px;
     color: #fff;
-    background-color: #205fb7;
-    border-color: #205fb7;
+    background-color: #205fb7 !important;
+    border-color: #205fb7 !important;
     width: 100%;
     font-size: 14px;
+    border-radius: 6px;
   }
   #page26 .btn-disable {
     margin-top: 10px;
@@ -1753,9 +1781,9 @@ section {
     position: relative;
     padding: 30px 10px 10px;
   }
-  #page .h2{ 
+  #page .h2 {
     padding-left: 15px;
-   }
+  }
   #page h2 {
     font-size: 22px;
     font-weight: 600;
@@ -1767,13 +1795,13 @@ section {
 
   #page h3 {
     font-weight: bold;
-    color: #205fb7;
+    color: #205fb7 !important;
     padding-left: 15px;
   }
 
   #page .arow-size {
     width: 15px;
-    color: #205fb7;
+    color: #205fb7 !important;
     position: fixed;
     top: 60px;
     left: 24px;
@@ -1795,9 +1823,9 @@ section {
     position: relative;
     padding: 30px 10px 10px;
   }
-  #page .h2{ 
+  #page .h2 {
     padding-left: 15px;
-   }
+  }
   #page h2 {
     font-size: 20px;
     font-weight: 600;
@@ -1809,13 +1837,13 @@ section {
 
   #page h3 {
     font-weight: bold;
-    color: #205fb7;
+    color: #205fb7 !important;
     padding-left: 15px;
   }
 
   #page .arow-size {
     width: 15px;
-    color: #205fb7;
+    color: #205fb7 !important;
     position: fixed;
     top: 60px;
     left: 34px;
