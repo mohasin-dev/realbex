@@ -88,6 +88,74 @@
     color: #073777;
 }
 
+/* page -3 */
+.uaePassDiv {
+    width: 75%;
+    /* background-color: rgb(184, 162, 162); */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pass-p {
+    margin-top: 30%;
+    font-size: 14px;
+    font-weight: 400;
+    color: #0a1b47e8;
+}
+
+.auth-p {
+    color: #137513;
+    font-size: 21px;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    font-weight: 400;
+}
+
+.auth-img {
+    width: 65vw;
+    margin-top: 3%;
+}
+
+.log-p {
+    margin-top: 18%;
+    margin-bottom: 5%;
+    color: #0a1b47e8;
+    font-size: 14px;
+}
+
+.real-p {
+    font-size: 17px;
+    color: #137513;
+}
+
+.confirm-btn {
+    height: 45px;
+    background-color: #9ea0a6;
+    border: none;
+    border-radius: 10px;
+    width: 70vw;
+    margin-top: 21%;
+    margin-bottom: 8%;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.confirm-btn a {
+    color: white;
+    font-size: 18px;
+}
+
+.cancel-a {
+    text-decoration: none;
+    color: rgb(21, 139, 21);
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 20%;
+}
+
+/* page -3 */
+
 @media only screen and (min-device-width: 240px) and (max-device-width: 320px) {
     .nav-img {
         position: absolute;
@@ -186,6 +254,75 @@
     ::placeholder {
         color: #073777;
     }
+
+    /* page -3 */
+    .uaePassDiv {
+        width: 75%;
+        /* background-color: rgb(184, 162, 162); */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .pass-p {
+        margin-top: 30%;
+        font-size: 14px;
+        font-weight: 400;
+        color: #0a1b47e8;
+    }
+
+    .auth-p {
+        color: #137513;
+        font-size: 21px;
+        margin-top: 12%;
+        margin-bottom: 12%;
+        font-weight: 400;
+    }
+
+    .auth-img {
+        width: 65vw;
+        margin-top: 3%;
+    }
+
+    .log-p {
+        margin-top: 18%;
+        margin-bottom: 5%;
+        color: #0a1b47e8;
+        font-size: 14px;
+    }
+
+    .real-p {
+        font-size: 15px;
+        color: #137513;
+    }
+
+    .confirm-btn {
+        height: 45px;
+        background-color: #9ea0a6;
+        border: none;
+        border-radius: 10px;
+        width: 70vw;
+        margin-top: 21%;
+        margin-bottom: 8%;
+        font-weight: 500;
+        font-size: 21px;
+    }
+
+    .confirm-btn a {
+        color: white;
+        font-size: 18px;
+    }
+
+    .cancel-a {
+        text-decoration: none;
+        color: rgb(21, 139, 21);
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 20%;
+    }
+
+    /* page -3 */
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 482px) {
@@ -286,6 +423,75 @@
     ::placeholder {
         color: #073777;
     }
+
+     /* page -3 */
+     .uaePassDiv {
+        width: 70%;
+        /* background-color: rgb(184, 162, 162); */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .pass-p {
+        margin-top: 30%;
+        font-size: 14px;
+        font-weight: 400;
+        color: #0a1b47e8;
+    }
+
+    .auth-p {
+        color: #137513;
+        font-size: 21px;
+        margin-top: 12%;
+        margin-bottom: 12%;
+        font-weight: 400;
+    }
+
+    .auth-img {
+        width: 65vw;
+        margin-top: 3%;
+    }
+
+    .log-p {
+        margin-top: 18%;
+        margin-bottom: 5%;
+        color: #0a1b47e8;
+        font-size: 14px;
+    }
+
+    .real-p {
+        font-size: 15px;
+        color: #137513;
+    }
+
+    .confirm-btn {
+        height: 45px;
+        background-color: #9ea0a6;
+        border: none;
+        border-radius: 10px;
+        width: 70vw;
+        margin-top: 21%;
+        margin-bottom: 8%;
+        font-weight: 500;
+        font-size: 21px;
+    }
+
+    .confirm-btn a {
+        color: white;
+        font-size: 18px;
+    }
+
+    .cancel-a {
+        text-decoration: none;
+        color: rgb(21, 139, 21);
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 20%;
+    }
+
+    /* page -3 */
 }
 
 @media only screen and (min-device-width: 480px) and (max-device-width: 575px) {
@@ -386,6 +592,78 @@
     ::placeholder {
         color: #073777;
     }
+
+        /* page -3 */
+        .uaePassDiv {
+            width: 70%;
+            /* background-color: rgb(184, 162, 162); */
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            
+        }
+    
+        .pass-p {
+            margin-top: 30%;
+            font-size: 15px;
+            font-weight: 400;
+            color: #0a1b47e8;
+        }
+    
+        .auth-p {
+            color: #137513;
+            font-size: 21px;
+            margin-top:5%;
+            margin-bottom: 12%;
+            font-weight: 400;
+        }
+    
+        .auth-img {
+            width: 52vw;
+            
+        }
+    
+        .log-p {
+            margin-top: 1%;
+            margin-bottom: 5%;
+            color: #0a1b47e8;
+            font-size: 14px;
+        }
+    
+        .real-p {
+            font-size: 15px;
+            color: #137513;
+        }
+    
+        .confirm-btn {
+            height: 45px;
+            background-color: #9ea0a6;
+            border: none;
+            border-radius: 10px;
+            width: 64vw;
+            margin-top: 12%;
+            margin-bottom: 8%;
+            font-weight: 500;
+            font-size: 21px;
+            
+        }
+    
+        .confirm-btn a {
+            color: white;
+            font-size: 18px;
+        }
+    
+        .cancel-a {
+            text-decoration: none;
+            color: rgb(21, 139, 21);
+            font-size: 18px;
+            font-weight: 400;
+            margin-top: 20%;
+        }
+    
+        /* page -3 */
+
+
 }
 
 @media only screen and (min-device-width: 575px) and (max-device-width: 980px) {
@@ -483,4 +761,75 @@
     ::placeholder {
         color: #073777;
     }
+
+
+      /* page -3 */
+      .uaePassDiv {
+        width: 70%;
+        /* background-color: rgb(184, 162, 162); */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .pass-p {
+        margin-top: 30%;
+        font-size: 15px;
+        font-weight: 400;
+        color: #0a1b47e8;
+    }
+
+    .auth-p {
+        color: #137513;
+        font-size: 21px;
+        margin-top:5%;
+        margin-bottom: 12%;
+        font-weight: 400;
+    }
+
+    .auth-img {
+        width: 52vw;
+        
+    }
+
+    .log-p {
+        margin-top: 1%;
+        margin-bottom: 5%;
+        color: #0a1b47e8;
+        font-size: 14px;
+    }
+
+    .real-p {
+        font-size: 15px;
+        color: #137513;
+    }
+
+    .confirm-btn {
+        height: 45px;
+        background-color: #9ea0a6;
+        border: none;
+        border-radius: 10px;
+        width: 64vw;
+        margin-top: 12%;
+        margin-bottom: 8%;
+        font-weight: 500;
+        font-size: 21px;
+        
+    }
+
+    .confirm-btn a {
+        color: white;
+        font-size: 18px;
+    }
+
+    .cancel-a {
+        text-decoration: none;
+        color: rgb(21, 139, 21);
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 20%;
+    }
+
+    /* page -3 */
 }
