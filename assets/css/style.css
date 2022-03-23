@@ -3257,7 +3257,7 @@ input[type="text"].incolor::-webkit-input-placeholder {
 
 
 .rotate1 {
-  animation: rotation1 2.5s infinite linear;
+  animation: rotation1 2.2s infinite linear;
 }
 
 @keyframes rotation1 {
@@ -3270,7 +3270,7 @@ input[type="text"].incolor::-webkit-input-placeholder {
 }
 
 .rotate2 {
-  animation: rotation1 1.5s infinite linear;
+  animation: rotation1 4.5s infinite linear;
 }
 
 @keyframes rotation2 {
@@ -3307,18 +3307,19 @@ input[type="text"].incolor::-webkit-input-placeholder {
     text-align: center; 
     padding-top: 94%;
   }
+
   .rotate-image1{
     position: absolute;
-    width: 32%;
-    top: 52%;
-    left: 32%;
+    width: 28%;
+    top: 50%;
+    left: 34%;
   }
   
   .rotate-image2{
     position: absolute;
-    width: 32%;
-    top: 52%;
-    left: 32%;
+    width: 28%;
+    top: 50%;
+    left: 34%;
   }
 
   .loader h6{
@@ -3361,18 +3362,19 @@ input[type="text"].incolor::-webkit-input-placeholder {
     text-align: center; 
     padding-top: 94%;
   }
+
   .rotate-image1{
     position: absolute;
-    width: 32%;
-    top: 52%;
-    left: 32%;
+    width: 28%;
+    top: 48%;
+    left: 36%;
   }
   
   .rotate-image2{
     position: absolute;
-    width: 32%;
-    top: 52%;
-    left: 32%;
+    width: 28%;
+    top: 48%;
+    left: 36%;
   }
 
   .loader h6{
@@ -3401,19 +3403,19 @@ input[type="text"].incolor::-webkit-input-placeholder {
   left: 8px;
 }
 
-.rotate-image1 {
-  position: absolute;
-  width: 32%;
-  top: 45%;
-  left: 32%;
-}
-
-.rotate-image2 {
-  position: absolute;
-  width: 32%;
-  top: 45%;
-  left: 32%;
-}
+  .rotate-image1{
+    position: absolute;
+    width: 28%;
+    top: 48%;
+    left: 36%;
+  }
+  
+  .rotate-image2{
+    position: absolute;
+    width: 28%;
+    top: 48%;
+    left: 36%;
+  }
 
 .loader h6 {
   color: #003060;
@@ -3447,7 +3449,7 @@ input[type="text"].incolor::-webkit-input-placeholder {
 .loader h6 {
   color: #003060;
   line-height: 1.3;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 500;
 }
 
