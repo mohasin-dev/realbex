@@ -92,6 +92,71 @@
 
 /* page 10 end  */
 
+/* page11 start */
+.passForm {
+    padding: 0% 5% 0% 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.passTitle {
+    color: rgb(13, 13, 128);
+    font-size: 21px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.passText {
+    color: #000103;
+    font-size: 13px;
+    text-align: left;
+    line-height: 30px;
+    margin-top: 4%;
+    
+}
+
+.password{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 5% 0% 5%;
+    
+}
+
+.password input{
+    height: 60px;
+    width: 280px;
+    
+    
+   
+
+}
+
+.welLink {
+    color: #106ce6;
+}
+
+.welBtn {
+    background-color: #1b5db3;
+    text-align: center;
+    color: white;
+    height: 55px;
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.welBtn a {
+    color: white;
+    font-weight: 500;
+}
+
+
+/* page11 start */
+
 /* page 12 start  */
 .welForm {
     padding: 0% 20% 0% 20%;
