@@ -65,23 +65,35 @@
 
               <div class="password">
 
-                 <div class="row pass1">
-                  <input type="password" class="pass" placeholder="******">
-                  <img src="./assets/img/visibility.svg" alt="">
+                 <div class="row pass1 mx-auto">
+                  <input type="password" class="pass" placeholder="*********">
+                  <img src="./assets/img/svg-files/visibility.svg" class="eye" alt="">
                  </div>
 
-                 <label for="passLab">Confirm Password</label>
+                 
+                 
 
-                 <div class="row pass2">
-                  <input type="password" class="pass" placeholder="******">
-                  <img src="./assets/img/visibility.svg" alt="">
+                 <div class="row pass2 mx-auto">
+                  <label class="passLab">Confirm Password</label>
+                  <input type="password" class="pass" placeholder="*********">
+                  <img src="./assets/img/svg-files/visibility.svg" class="eye" alt="">
                  </div>
 
               </div>
 
+              
+              <div class="passCon row">
+
+                <span class="warnText mx-4 my-1">Your password must contain :</span>
+                <span class="warnText"> <img class="warnImg" src="./assets/img/svg-files/warning_icon.svg"  alt=""> Between 8 and 20 characters</span>
+                <span class="warnText"> <img class="warnImg" src="./assets/img/svg-files/warning_icon.svg"  alt=""> at least one lowercase letter ;</span>
+                <span class="warnText"> <img class="warnImg" src="./assets/img/svg-files/warning_icon.svg"  alt=""> at least one uppercase letter ;</span>
+                <span class="warnText"> <img class="warnImg" src="./assets/img/svg-files/warning_icon.svg"  alt=""> digits OR special characters (#, @, &...).</span>
+                
+              </div>
+
+             <button class="passBtn"><a href="#" >Create Account</a></button>
              
-             <button class="welBtn"><a href="#" >Proceed</a></button>
-             <a href="#" class="welLink">Skip, do this late</a>
              
            </div>
         </div>
