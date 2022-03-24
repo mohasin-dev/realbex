@@ -1108,7 +1108,7 @@ section {
 
 .get-started {
   position: absolute;
-  bottom: 3%;
+  bottom: 5%;
 }
 
 #profile .profile img {
@@ -1322,7 +1322,7 @@ section {
   }
   #hero .get-started {
     position: absolute;
-    bottom: 3%;
+    bottom: 5%;
   }
   #header #logo img {
     display: none;
