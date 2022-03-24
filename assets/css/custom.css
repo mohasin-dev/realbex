@@ -393,7 +393,7 @@ h6 {
 #hero .hero-container {
   position: absolute;
   bottom: 0;
-  top: 0;
+  top: -20%;
   left: 0;
   right: 0;
   display: flex;
@@ -1108,7 +1108,7 @@ section {
 
 .get-started {
   position: absolute;
-  bottom: 3%;
+  bottom: 10%;
 }
 
 #profile .profile img {
@@ -1128,6 +1128,10 @@ section {
 
 #profile table th {
   font-size: 24px;
+}
+
+#profile .mortages-card table th {
+  font-size: 20px;
 }
 
 #profile .img-div {
@@ -1250,12 +1254,11 @@ section {
     display: flex;
     align-items: center;
   }
-  .profile-btn {
-    width: 100%;
-    margin-bottom: 10px;
-  }
   #profile table th {
     font-size: 24px;
+  }
+  #profile .mortages-card table th {
+    font-size: 20px;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -1279,6 +1282,10 @@ section {
   }
   #profile table th {
     font-size: 24px;
+  }
+
+  #profile .mortages-card table th {
+    font-size: 20px;
   }
 }
 /* Medium devices (landscape tablets, 768px and up) */
@@ -1315,7 +1322,7 @@ section {
   }
   #hero .get-started {
     position: absolute;
-    bottom: 3%;
+    bottom: 10%;
   }
   #header #logo img {
     display: none;
@@ -1389,6 +1396,9 @@ section {
 --------------------------------------------------------------*/
 
 @media (max-width: 390px) {
+  #profile .mortages-card table th {
+    font-size: 20px;
+  }
   #body-temp {
     padding-left: 6%;
     padding-right: 6%;
@@ -1588,7 +1598,32 @@ section {
  */
 }
 
+.btn-success {
+  padding: 6px 25px;
+  color: #fff;
+  background-color: #205fb7;
+  border-color: #205fb7;
+}
+
 @media (max-width: 428px) {
+  #page26 .btn-success {
+    padding: 6px 8px;
+    color: #fff;
+    background-color: #205fb7;
+    border-color: #205fb7;
+    font-size: 15px;
+  }
+  #page26 .btn-disable {
+    padding: 6px 8px;
+    color: #fff;
+    background-color: #ccc;
+    border-color: #ccc;
+    width: 133px;
+    font-size: 15px;
+  }
+  #profile .mortages-card table th {
+    font-size: 20px;
+  }
   #page {
     width: 100%;
     position: relative;
@@ -1624,10 +1659,52 @@ section {
   #page .property-card {
     min-height: 80px;
     padding: 30px 20px;
+  }
+}
+
+@media (max-width: 410px) {
+  .btn-success {
+      padding: 6px 12px;
+      color: #fff;
+      background-color: #205fb7;
+      border-color: #205fb7;
   }
 }
 
 @media (max-width: 375px) {
+  .btn-success {
+    padding: 6px 15px;
+    color: #fff;
+    background-color: #205fb7;
+    border-color: #205fb7;
+}
+  #page26 .btn-success {
+    padding: 6px;
+    color: #fff;
+    background-color: #205fb7;
+    border-color: #205fb7;
+    font-size: 14px;
+  }
+  #page26 .btn-disable {
+    padding: 6px;
+    color: #fff;
+    background-color: #ccc;
+    border-color: #ccc;
+    width: 133px;
+    font-size: 14px;
+  }
+  .profile-btn {
+    background: #205fb7;
+    border: 0;
+    width: 150px;
+    border-radius: 6px;
+    padding: 7px;
+    color: #fff;
+    transition: 0.4s;
+}
+  #profile .mortages-card table th {
+    font-size: 17px;
+  }
   #page {
     width: 100%;
     position: relative;
@@ -1665,7 +1742,52 @@ section {
   }
 }
 
+@media (max-width: 370px) {
+  .btn-success {
+    padding: 6px 15px;
+    color: #fff;
+    background-color: #205fb7;
+    border-color: #205fb7;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
 @media (max-width: 320px) {
+  .btn-success {
+    font-size: 14px;
+    width: 100%;
+    padding: 6px 15px;
+    color: #fff;
+    background-color: #205fb7;
+    border-color: #205fb7;
+    margin-bottom: 10px;
+}
+  #page26 .btn-success {
+    padding: 6px 8px;
+    color: #fff;
+    background-color: #205fb7;
+    border-color: #205fb7;
+    width: 100%;
+    font-size: 14px;
+  }
+  #page26 .btn-disable {
+    margin-top: 10px;
+    padding: 6px 8px;
+    color: #fff;
+    background-color: #ccc;
+    border-color: #ccc;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .profile-btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #profile .mortages-card table th {
+    font-size: 16px;
+  }
   #page {
     width: 100%;
     position: relative;
@@ -1704,6 +1826,10 @@ section {
 }
 
 @media (max-width: 280px) {
+  .profile-btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
   #page {
     width: 100%;
     position: relative;
