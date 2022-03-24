@@ -1219,48 +1219,7 @@ section {
   transition: 0.4s;
 }
 
-@media (max-width: 420px) {
-  .page21-head {
-    padding: 20px 12px;
-  }
 
-  .property-card .mortages-card table tbody tr td {
-    font-size: 14px;
-  }
-  #hero h1 {
-    font-size: 36px;
-    line-height: 36px;
-    font-family: "Raleway", sans-serif;
-  }
-  #hero .btn-get-started {
-    font-size: 18px;
-  }
-  #hero h2 {
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 26px;
-  }
-  #profile .img-div {
-    margin-right: 40px;
-    padding: 0 15px;
-  }
-  #profile .profile img {
-    min-width: 100px;
-    margin-right: 20px;
-  }
-  #profile .welcome-box {
-    font-size: 20px;
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-  }
-  #profile table th {
-    font-size: 24px;
-  }
-  #profile .mortages-card table th {
-    font-size: 20px;
-  }
-}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (max-width: 600px) {
   .page21-head {
@@ -1469,7 +1428,59 @@ section {
   }
 }
 
+@media (max-width: 414px) {
+  .page21-head {
+    padding: 20px 12px;
+  }
+
+  #page26 .btn-success {
+    padding: 6px 20px;
+  }
+
+  .property-card .mortages-card table tbody tr td {
+    font-size: 14px;
+  }
+  #hero h1 {
+    font-size: 36px;
+    line-height: 36px;
+    font-family: "Raleway", sans-serif;
+  }
+  #hero .btn-get-started {
+    font-size: 18px;
+  }
+  #hero h2 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 26px;
+  }
+  #profile .img-div {
+    margin-right: 40px;
+    padding: 0 15px;
+  }
+  #profile .profile img {
+    min-width: 100px;
+    margin-right: 20px;
+  }
+  #profile .welcome-box {
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+  }
+  #profile table th {
+    font-size: 24px;
+  }
+  #profile .mortages-card table th {
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 390px) {
+  #page26 .btn-success {
+    padding: 6px 18px;
+    font-size: 14px;
+  }
+
   #page26 .btn-success {
     padding: 6px 8px;
     color: #fff;
