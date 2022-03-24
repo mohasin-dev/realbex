@@ -3255,7 +3255,7 @@ input[type="text"].incolor::-webkit-input-placeholder {
 
 
 .rotate1 {
-  animation: rotation1 1.4s infinite linear;
+  animation: rotation1 2.2s infinite linear;
 }
 
 @keyframes rotation1 {
@@ -3268,7 +3268,7 @@ input[type="text"].incolor::-webkit-input-placeholder {
 }
 
 .rotate2 {
-  animation: rotation1 1.5s infinite linear;
+  animation: rotation1 4.5s infinite linear;
 }
 
 @keyframes rotation2 {
