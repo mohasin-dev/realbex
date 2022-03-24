@@ -1385,7 +1385,11 @@ left: -100%;
 # Css for the complete profile setup page
 # Css starts here
 --------------------------------------------------------------*/
-
+input[type="text"].incolor::-webkit-input-placeholder {
+  font-size: 16px;
+  font-weight: 500;
+  color: #7c8694;
+}
 
 
 @media (max-width: 428px) {
