@@ -460,7 +460,7 @@
         border-radius: 16px;
         margin-bottom: 6%;
         margin-top: 5%;
-        padding: 5% 0% 5% 19%;
+        padding: 5% 0% 5% 15%;
     }
 
     .uaeFinger {
@@ -470,7 +470,7 @@
 
     .uaeLoginLink {
         color: #5d6062;
-        font-size: 14px;
+        font-size: 16px;
         /* padding:80px 20px 0px 20px; */
         /* margin-left: 14%; */
     }
@@ -495,7 +495,7 @@
         background-color: #1b5db3;
         text-align: center;
         color: white;
-        height: 18%;
+        height: 16%;
         width: 60%;
         border: none;
         border-radius: 10px;
@@ -560,8 +560,8 @@
     }
 
     .confirm-btn {
-        height: 45px;
-        background-color: #9ea0a6;
+        height: 54px;
+        background-color: #738b99c2;
         border: none;
         border-radius: 10px;
         width: 70vw;
@@ -573,7 +573,8 @@
 
     .confirm-btn a {
         color: white;
-        font-size: 18px;
+        font-size: 22px;
+        font-weight: 506;
     }
 
     .cancel-a {
@@ -586,7 +587,6 @@
 
     /* page -3 */
 
-    
     /* page 8 */
     .sliderForm {
         width: 90%;
@@ -608,7 +608,7 @@
     .round {
         height: 28px;
         width: 28px;
-        margin-right: 4% !important;
+        margin-right: 3% !important;
         border: #9ea0a6 1px solid;
         border-radius: 50%;
         border: none;
@@ -617,7 +617,7 @@
 
     .arrow-left {
         width: 15px;
-        height: 15px;
+        height: 23px;
         margin-left: -1% !important;
         align-items: center;
         justify-content: center;
@@ -631,7 +631,7 @@
         font-size: 25px;
         display: flex;
         flex-direction: column;
-        margin-top: 17%;
+        margin-top: 20%;
         font-weight: 500;
     }
 
@@ -639,7 +639,7 @@
         display: block;
         height: 30px;
         width: 100%;
-        margin-top: 2%;
+        margin-top: 3%;
         border: none;
         background-color: #e9ebf1ad;
         padding-left: 17px;
@@ -671,7 +671,7 @@
         width: 64%;
         margin-top: 16%;
         margin-left: 18%;
-        border-radius: 5px;
+        border-radius: 8px;
         color: white;
         font-size: 15px;
         background-color: #085dcce3;
@@ -850,8 +850,8 @@
 
     /* page -3 */
 
-      /* page 8 */
-      .sliderForm {
+    /* page 8 */
+    .sliderForm {
         width: 90%;
         /* background-color: rgb(184, 162, 162); */
         justify-content: center;
@@ -1108,8 +1108,8 @@
 
     /* page -3 */
 
-      /* page 8 */
-      .sliderForm {
+    /* page 8 */
+    .sliderForm {
         width: 90%;
         /* background-color: rgb(184, 162, 162); */
         justify-content: center;
