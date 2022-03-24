@@ -1363,6 +1363,12 @@ section {
   margin-right: 10px;
 }
 
+#page25 .p-button {
+  margin-top: -40px;
+  left: 9%;
+  position: absolute;
+}
+
 @media (max-width: 428px) {
   .top-service {
     padding-left: 7%;
