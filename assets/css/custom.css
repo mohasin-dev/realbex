@@ -393,7 +393,7 @@ h6 {
 #hero .hero-container {
   position: absolute;
   bottom: 0;
-  top: 0;
+  top: -20%;
   left: 0;
   right: 0;
   display: flex;
@@ -1108,7 +1108,7 @@ section {
 
 .get-started {
   position: absolute;
-  bottom: 5%;
+  bottom: 10%;
 }
 
 #profile .profile img {
@@ -1322,7 +1322,7 @@ section {
   }
   #hero .get-started {
     position: absolute;
-    bottom: 5%;
+    bottom: 10%;
   }
   #header #logo img {
     display: none;
