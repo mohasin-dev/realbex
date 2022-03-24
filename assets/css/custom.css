@@ -1603,15 +1603,25 @@ section {
   color: #fff;
   background-color: #205fb7;
   border-color: #205fb7;
+  border-radius: 6px;
+  margin-right: 10px;
 }
 
 @media (max-width: 428px) {
+  .top-service {
+    padding-left: 4%;
+  }
+  #page26 .top-service {
+    padding-left: 6%;
+  }
   #page26 .btn-success {
-    padding: 6px 8px;
+    padding: 6px 25px;
     color: #fff;
     background-color: #205fb7;
     border-color: #205fb7;
     font-size: 15px;
+    border-radius: 6px;
+    margin-right: 10px;
   }
   #page26 .btn-disable {
     padding: 6px 8px;
@@ -1668,15 +1678,22 @@ section {
       color: #fff;
       background-color: #205fb7;
       border-color: #205fb7;
+      border-radius: 6px;
+      margin-right: 10px;
   }
 }
 
 @media (max-width: 375px) {
+  .top-service {
+    padding-left: 2%;
+  }
   .btn-success {
     padding: 6px 15px;
     color: #fff;
     background-color: #205fb7;
     border-color: #205fb7;
+    border-radius: 6px;
+    margin-right: 10px;
 }
   #page26 .btn-success {
     padding: 6px;
@@ -1684,6 +1701,8 @@ section {
     background-color: #205fb7;
     border-color: #205fb7;
     font-size: 14px;
+    border-radius: 6px;
+    /* margin-right: 10px; */
   }
   #page26 .btn-disable {
     padding: 6px;
@@ -1692,6 +1711,8 @@ section {
     border-color: #ccc;
     width: 133px;
     font-size: 14px;
+    border-radius: 6px;
+    /* margin-right: 10px; */
   }
   .profile-btn {
     background: #205fb7;
@@ -1750,6 +1771,8 @@ section {
     border-color: #205fb7;
     width: 100%;
     margin-top: 10px;
+    border-radius: 6px;
+    margin-right: 10px;
   }
 }
 
@@ -1762,6 +1785,7 @@ section {
     background-color: #205fb7;
     border-color: #205fb7;
     margin-bottom: 10px;
+    border-radius: 6px;
 }
   #page26 .btn-success {
     padding: 6px 8px;
@@ -1770,6 +1794,7 @@ section {
     border-color: #205fb7;
     width: 100%;
     font-size: 14px;
+    border-radius: 6px;
   }
   #page26 .btn-disable {
     margin-top: 10px;
