@@ -1138,7 +1138,7 @@ section {
   padding: 0 80px;
 }
 
- .property-card {
+.property-card {
   border: none;
   min-height: 250px;
   background-color: #d7e2f2;
@@ -1183,7 +1183,7 @@ section {
 }
 
 .profile-btn {
-  background: #205fb7;
+  background: #205fb7 !important;
   border: 0;
   width: 160px;
   border-radius: 6px;
@@ -1396,6 +1396,9 @@ section {
 --------------------------------------------------------------*/
 
 @media (max-width: 390px) {
+  .top-service {
+    padding-left: 2%;
+  }
   #profile .mortages-card table th {
     font-size: 20px;
   }
@@ -1417,7 +1420,7 @@ section {
 
   #head .arow-size {
     width: 15px;
-    color: #205fb7;
+    color: #205fb7 !important;
     position: fixed;
     top: 60px;
     left: 24px;
@@ -1601,24 +1604,22 @@ section {
 .btn-success {
   padding: 6px 25px;
   color: #fff;
-  background-color: #205fb7;
-  border-color: #205fb7;
+  background-color: #205fb7 !important;
+  border-color: #205fb7 !important;
   border-radius: 6px;
   margin-right: 10px;
 }
 
 @media (max-width: 428px) {
-  .top-service {
-    padding-left: 4%;
-  }
+  
   #page26 .top-service {
     padding-left: 6%;
   }
   #page26 .btn-success {
     padding: 6px 25px;
     color: #fff;
-    background-color: #205fb7;
-    border-color: #205fb7;
+    background-color: #205fb7 !important;
+    border-color: #205fb7 !important;
     font-size: 15px;
     border-radius: 6px;
     margin-right: 10px;
@@ -1639,9 +1640,9 @@ section {
     position: relative;
     padding: 30px 10px 10px;
   }
-  #page .h2{ 
+  #page .h2 {
     padding-left: 15px;
-   }
+  }
 
   #page h2 {
     font-size: 24px;
@@ -1654,13 +1655,13 @@ section {
 
   #page h3 {
     font-weight: bold;
-    color: #205fb7;
+    color: #205fb7 !important;
     padding-left: 15px;
   }
 
   #page .arow-size {
     width: 15px;
-    color: #205fb7;
+    color: #205fb7 !important;
     position: fixed;
     top: 60px;
     left: 34px;
@@ -1672,34 +1673,34 @@ section {
   }
 }
 
-@media (max-width: 410px) {
+/* @media (max-width: 410px) {
   .btn-success {
-      padding: 6px 12px;
-      color: #fff;
-      background-color: #205fb7;
-      border-color: #205fb7;
-      border-radius: 6px;
-      margin-right: 10px;
+    padding: 8px 34px;
+    color: #fff;
+    background-color: #205fb7 !important;
+    border-color: #205fb7 !important;
+    border-radius: 6px;
+    margin-right: 10px;
   }
-}
+} */
 
 @media (max-width: 375px) {
   .top-service {
     padding-left: 2%;
   }
   .btn-success {
-    padding: 6px 15px;
+    padding: 5px 10px;
     color: #fff;
-    background-color: #205fb7;
-    border-color: #205fb7;
+    background-color: #205fb7 !important;
+    border-color: #205fb7 !important;
     border-radius: 6px;
     margin-right: 10px;
-}
+  }
   #page26 .btn-success {
     padding: 6px;
     color: #fff;
-    background-color: #205fb7;
-    border-color: #205fb7;
+    background-color: #205fb7 !important;
+    border-color: #205fb7 !important;
     font-size: 14px;
     border-radius: 6px;
     /* margin-right: 10px; */
@@ -1715,14 +1716,14 @@ section {
     /* margin-right: 10px; */
   }
   .profile-btn {
-    background: #205fb7;
+    background: #205fb7 !important;
     border: 0;
     width: 150px;
     border-radius: 6px;
     padding: 7px;
     color: #fff;
     transition: 0.4s;
-}
+  }
   #profile .mortages-card table th {
     font-size: 17px;
   }
@@ -1731,9 +1732,9 @@ section {
     position: relative;
     padding: 30px 10px 10px;
   }
-  #page .h2{ 
+  #page .h2 {
     padding-left: 15px;
-   }
+  }
 
   #page h2 {
     font-size: 24px;
@@ -1746,13 +1747,13 @@ section {
 
   #page h3 {
     font-weight: bold;
-    color: #205fb7;
+    color: #205fb7 !important;
     padding-left: 15px;
   }
 
   #page .arow-size {
     width: 15px;
-    color: #205fb7;
+    color: #205fb7 !important;
     position: fixed;
     top: 60px;
     left: 34px;
@@ -1767,8 +1768,8 @@ section {
   .btn-success {
     padding: 6px 15px;
     color: #fff;
-    background-color: #205fb7;
-    border-color: #205fb7;
+    background-color: #205fb7 !important;
+    border-color: #205fb7 !important;
     width: 100%;
     margin-top: 10px;
     border-radius: 6px;
@@ -1782,16 +1783,16 @@ section {
     width: 100%;
     padding: 6px 15px;
     color: #fff;
-    background-color: #205fb7;
-    border-color: #205fb7;
+    background-color: #205fb7 !important;
+    border-color: #205fb7 !important;
     margin-bottom: 10px;
     border-radius: 6px;
-}
+  }
   #page26 .btn-success {
     padding: 6px 8px;
     color: #fff;
-    background-color: #205fb7;
-    border-color: #205fb7;
+    background-color: #205fb7 !important;
+    border-color: #205fb7 !important;
     width: 100%;
     font-size: 14px;
     border-radius: 6px;
@@ -1818,9 +1819,9 @@ section {
     position: relative;
     padding: 30px 10px 10px;
   }
-  #page .h2{ 
+  #page .h2 {
     padding-left: 15px;
-   }
+  }
   #page h2 {
     font-size: 22px;
     font-weight: 600;
@@ -1832,13 +1833,13 @@ section {
 
   #page h3 {
     font-weight: bold;
-    color: #205fb7;
+    color: #205fb7 !important;
     padding-left: 15px;
   }
 
   #page .arow-size {
     width: 15px;
-    color: #205fb7;
+    color: #205fb7 !important;
     position: fixed;
     top: 60px;
     left: 24px;
@@ -1860,9 +1861,9 @@ section {
     position: relative;
     padding: 30px 10px 10px;
   }
-  #page .h2{ 
+  #page .h2 {
     padding-left: 15px;
-   }
+  }
   #page h2 {
     font-size: 20px;
     font-weight: 600;
@@ -1874,13 +1875,13 @@ section {
 
   #page h3 {
     font-weight: bold;
-    color: #205fb7;
+    color: #205fb7 !important;
     padding-left: 15px;
   }
 
   #page .arow-size {
     width: 15px;
-    color: #205fb7;
+    color: #205fb7 !important;
     position: fixed;
     top: 60px;
     left: 34px;
