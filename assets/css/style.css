@@ -2226,18 +2226,36 @@ input[type="text"].incolor::-webkit-input-placeholder {
   }
 
   .finger-thamb{
-    width: 34px;
+    width: 24px;
   }
 
   .form-group .finger-action{
     position: absolute;
     color: #3d3a3b;
     top: 34%;
-    left: 20%;
+    left: 22%;
     font-size: 18px;
     font-weight: 500;
   }
 
+
+}
+
+@media only screen and (max-width: 414px){
+
+  .form-group .finger-action {
+    left: 20%;
+    top: 37%;
+}
+
+}
+
+@media only screen and (max-width: 393px){
+
+  .form-group .finger-action {
+    left: 18%;
+    top: 38%;
+}
 
 }
 
@@ -2266,7 +2284,7 @@ input[type="text"].incolor::-webkit-input-placeholder {
     font-weight: 500;
 }
 .finger-thamb {
-  width: 32px;
+  width: 24px;
 }
 
 .page-contain p {
@@ -2294,6 +2312,10 @@ input[type="text"].incolor::-webkit-input-placeholder {
 
 }
 
+
+
+
+
 @media only screen and (max-width: 320px){
 
 
@@ -2308,7 +2330,7 @@ input[type="text"].incolor::-webkit-input-placeholder {
   .form-group .finger-action {
     position: absolute;
     color: #3d3a3b;
-    top: 34%;
+    top: 37%;
     left: 18%;
     font-size: 14px;
     font-weight: 500;
@@ -2356,10 +2378,11 @@ input[type="text"].incolor::-webkit-input-placeholder {
 .form-group .finger-action {
   font-size: 12px;
   top: 38%;
+  left: 20%;
 }
 
 .finger-thamb {
-  width: 26px;
+  width: 18px;
 }
 
 }
