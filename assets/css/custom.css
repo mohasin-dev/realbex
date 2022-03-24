@@ -1377,7 +1377,7 @@ section {
     padding-left: 6%;
   }
   #page26 .btn-success {
-    padding: 6px 25px;
+    padding: 8px 25px;
     color: #fff;
     background-color: #205fb7 !important;
     border-color: #205fb7 !important;
@@ -1440,7 +1440,7 @@ section {
   }
 
   #page26 .btn-success {
-    padding: 6px 20px;
+    padding: 8px 20px;
   }
 
   .property-card .mortages-card table tbody tr td {
@@ -1483,12 +1483,12 @@ section {
 
 @media (max-width: 390px) {
   #page26 .btn-success {
-    padding: 6px 18px;
+    padding: 8px 18px;
     font-size: 14px;
   }
 
   #page26 .btn-success {
-    padding: 6px 8px;
+    padding: 8px 8px;
     color: #fff;
     background-color: #205fb7 !important;
     border-color: #205fb7 !important;
@@ -1662,7 +1662,7 @@ section {
     margin-right: 10px;
   }
     #page26 .btn-success {
-    padding: 6px 8px;
+    padding: 8px;
     color: #fff;
     background-color: #205fb7 !important;
     border-color: #205fb7 !important;
@@ -1673,7 +1673,7 @@ section {
   }
 
   #page26 .btn-success, #page26 .btn-disable {
-    padding: 6px 8px;
+    padding: 8px;
     color: #fff;
     background-color: #ccc;
     border-color: #ccc;
@@ -1734,7 +1734,7 @@ section {
 
 @media (max-width: 370px) {
   .btn-success {
-    padding: 6px 15px;
+    padding: 8px 15px;
     color: #fff;
     background-color: #205fb7 !important;
     border-color: #205fb7 !important;
@@ -1749,7 +1749,7 @@ section {
   .btn-success {
     font-size: 14px;
     width: 100%;
-    padding: 6px 15px;
+    padding: 8px 15px;
     color: #fff;
     background-color: #205fb7 !important;
     border-color: #205fb7 !important;
@@ -1757,7 +1757,7 @@ section {
     border-radius: 6px;
   }
   #page26 .btn-success {
-    padding: 6px 8px;
+    padding: 8px;
     color: #fff;
     background-color: #205fb7 !important;
     border-color: #205fb7 !important;
